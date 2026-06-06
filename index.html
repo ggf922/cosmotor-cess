@@ -1,0 +1,2418 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOTOR CESS - 에너지 절감 솔루션 제안서</title>
+    <meta name="description" content="COSMOTOR CESS(Cosmotor Electricity Saving System) 에너지 절감 솔루션 제안서. 10% 절전율로 13% 전기요금 절감, 33개월 내 투자 회수. 국내 5,000여 업체, 20개국 수출.">
+    <meta name="keywords" content="CESS, 코스모토, 전기절감, 에너지절약, 누진세절감, 절전시스템, 전기요금절감, Cosmotor">
+    <meta name="author" content="COSMOTOR">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="COSMOTOR CESS - 에너지 절감 솔루션">
+    <meta property="og:description" content="10% 절전율 확보 시 13% 절감율 혜택! 초기비용 없이 33개월 내 전액 회수 가능한 CESS 에너지 절감 솔루션.">
+    <meta property="og:image" content="https://www.genspark.ai/api/files/s/BlujFSyF">
+    <meta property="og:locale" content="ko_KR">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="COSMOTOR CESS - 에너지 절감 솔루션">
+    <meta name="twitter:description" content="10% 절전율 확보 시 13% 절감율 혜택! CESS 에너지 절감 솔루션.">
+    <meta name="twitter:image" content="https://www.genspark.ai/api/files/s/BlujFSyF">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- 다국어 엔진 -->
+    <script src="js/i18n.js"></script>
+</head>
+<body>
+
+<!-- ===== LOADING SCREEN ===== -->
+<div id="loading-screen" class="loading-screen">
+    <div class="loading-content">
+        <div class="loading-logo">
+            <span class="loading-bolt">⚡</span>
+            <span class="loading-brand"><em>C</em>OSS</span>
+        </div>
+        <div class="loading-bar-wrap">
+            <div class="loading-bar" id="loading-bar"></div>
+        </div>
+        <p class="loading-text">에너지 절감 솔루션 로딩 중...</p>
+    </div>
+</div>
+
+<!-- ===== SCROLL PROGRESS BAR ===== -->
+<div id="scroll-progress" class="scroll-progress-bar"></div>
+
+<!-- ===== 브레드크럼 (현재 섹션 표시) ===== -->
+<div id="breadcrumb-bar" class="breadcrumb-bar" aria-label="현재 위치">
+    <div class="breadcrumb-inner">
+        <span class="bc-home"><i class="fas fa-bolt"></i> CESS</span>
+        <i class="fas fa-chevron-right bc-sep"></i>
+        <span class="bc-current" id="bc-current">홈</span>
+    </div>
+</div>
+
+<!-- ===== FIXED NAVIGATION ===== -->
+<nav id="main-nav">
+    <div class="nav-inner">
+        <div class="nav-logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text"><em>C</em>OSMOTOR</span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link active" data-tooltip="메인 홈">홈</a></li>
+            <li><a href="#index-section" class="nav-link" data-tooltip="목차 보기">INDEX</a></li>
+            <li><a href="#company" class="nav-link" data-tooltip="연혁·회사소개">회사개요</a></li>
+            <li><a href="#principle" class="nav-link" data-tooltip="절전 작동원리">절전원리</a></li>
+            <li><a href="#certification" class="nav-link" data-tooltip="KTL·CE·ISO 인증">정부인증</a></li>
+            <li><a href="#installation" class="nav-link" data-tooltip="5,000+ 업체·20개국">설치현황</a></li>
+            <li><a href="#simulation" class="nav-link" data-tooltip="누진세 절감 시뮬레이션">시뮬레이션</a></li>
+            <li><a href="#roi" class="nav-link" data-tooltip="33개월 회수 분석">구축비용</a></li>
+            <li><a href="#dashboard" class="nav-link" data-tooltip="성과 대시보드·차트"><i class="fas fa-chart-bar"></i></a></li>
+            <li><a href="#carbon" class="nav-link" data-tooltip="탄소절감·ESG 효과"><i class="fas fa-leaf"></i></a></li>
+            <li><a href="#reviews" class="nav-link" data-tooltip="고객 후기"><i class="fas fa-star"></i></a></li>
+            <li><a href="#compare" class="nav-link" data-tooltip="도입 전/후 비교"><i class="fas fa-balance-scale"></i></a></li>
+            <li><a href="#timeline" class="nav-link" data-tooltip="도입 로드맵"><i class="fas fa-road"></i></a></li>
+            <li><a href="#faq-new" class="nav-link" data-tooltip="FAQ 자주 묻는 질문"><i class="fas fa-question-circle"></i></a></li>
+            <li><a href="#energy-necessity" class="nav-link" data-tooltip="에너지 절감 필요성">절감필요성</a></li>
+            <li><a href="#process" class="nav-link" data-tooltip="4단계 설치 프로세스">설치프로세스</a></li>
+            <li><a href="#qa" class="nav-link" data-tooltip="자주 묻는 질문 14개">Q&amp;A</a></li>
+            <li><a href="#calculator" class="nav-link nav-link-calc" data-tooltip="전기요금 절감 계산기"><i class="fas fa-calculator"></i> 계산기</a></li>
+            <li><a href="distributors.html" class="nav-link nav-link-dist" data-tooltip="총판·대리점 관리 시스템" target="_blank"><i class="fas fa-network-wired"></i> 유통망</a></li>
+        </ul>
+        <div class="nav-actions">
+            <!-- 다국어 선택 버튼 -->
+            <div class="lang-switcher" id="lang-switcher" role="group" aria-label="언어 선택">
+                <button class="lang-btn active" data-lang="ko" title="한국어">🇰🇷 KO</button>
+                <button class="lang-btn" data-lang="en" title="English">🇺🇸 EN</button>
+                <button class="lang-btn" data-lang="zh" title="中文">🇨🇳 ZH</button>
+                <button class="lang-btn" data-lang="ja" title="日本語">🇯🇵 JA</button>
+                <button class="lang-btn" data-lang="vi" title="Tiếng Việt">🇻🇳 VI</button>
+            </div>
+            <button class="btn-darkmode" id="darkmode-toggle" aria-label="다크/라이트 모드 전환" title="테마 전환">
+                <i class="fas fa-moon" id="darkmode-icon"></i>
+            </button>
+            <button class="download-btn-nav" id="download-all-btn">
+                <i class="fas fa-download"></i> <span data-i18n="nav_download">자료 다운로드</span>
+            </button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="메뉴">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="hero" class="hero-section">
+    <div class="hero-bg-image">
+        <img src="https://www.genspark.ai/api/files/s/BlujFSyF" alt="CESS Hero" class="hero-img">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="hero-subtitle-top">전기절감의 새로운 세계, CESS가 만들어갑니다.</p>
+        <h1 class="hero-title">CESS</h1>
+        <p class="hero-subtitle">Cosmotor Electricity Saving System</p>
+        <h2 class="hero-main-text">에너지 절감 솔루션 제안서</h2>
+        <p class="hero-sub-text">(코스모토 전기절전기 설치 방안)</p>
+        <!-- 타이핑 효과 키워드 -->
+        <div class="hero-typing-wrap">
+            <span class="hero-typing-prefix">절약하는 것은 </span>
+            <span class="hero-typing-cursor" id="hero-typing-text">전기요금</span>
+            <span class="hero-typing-blink">|</span>
+        </div>
+        <div class="hero-btns">
+            <a href="#index-section" class="btn-primary">제안서 보기</a>
+            <button class="btn-secondary" onclick="downloadImage('https://www.genspark.ai/api/files/s/BlujFSyF', 'CESS_표지.jpg')">
+                <i class="fas fa-download"></i> 표지 다운로드
+            </button>
+        </div>
+    </div>
+    <!-- Hero 키 스탯 카드 -->
+    <div class="hero-stats">
+        <div class="hero-stat-card">
+            <div class="hero-stat-num" data-target="5000">0</div>
+            <div class="hero-stat-unit" data-i18n="hero_stat1_unit">여 업체</div>
+            <div class="hero-stat-label" data-i18n="hero_stat1_label">국내 설치 운용</div>
+        </div>
+        <div class="hero-stat-card">
+            <div class="hero-stat-num" data-target="20">0</div>
+            <div class="hero-stat-unit" data-i18n="hero_stat2_unit">개국</div>
+            <div class="hero-stat-label" data-i18n="hero_stat2_label">해외 수출</div>
+        </div>
+        <div class="hero-stat-card">
+            <div class="hero-stat-num" data-target="33">0</div>
+            <div class="hero-stat-unit" data-i18n="hero_stat3_unit">개월</div>
+            <div class="hero-stat-label" data-i18n="hero_stat3_label">투자 회수 기간</div>
+        </div>
+        <div class="hero-stat-card">
+            <div class="hero-stat-num" data-target="10">0</div>
+            <div class="hero-stat-unit" data-i18n="hero_stat4_unit">%</div>
+            <div class="hero-stat-label" data-i18n="hero_stat4_label">평균 절전율</div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+    </div>
+    <!-- v5.4 히어로 하단 웨이브 -->
+    <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="#ffffff"/>
+        </svg>
+    </div>
+</section>
+
+<!-- ===== BENEFIT BANNER ===== -->
+<section class="benefit-banner">
+    <div class="container">
+        <div class="benefit-top">
+            <h2 class="benefit-title">아파트단지 CESS 구축 시, 누진세 절감 대폭확대!</h2>
+            <p class="benefit-highlight"><span class="highlight-num">10%</span> 절전율 확보 시 <span class="highlight-num">13%</span> 절감율 혜택!</p>
+        </div>
+        <div class="benefit-circles">
+            <div class="benefit-circle">중·대형<br>공장에서</div>
+            <div class="benefit-circle">빌딩 등<br>건물에서</div>
+            <div class="benefit-circle">야간 조명<br>시설에서</div>
+            <div class="benefit-circle">대규모산업<br>단지에서</div>
+            <div class="benefit-circle">기지국 등<br>공공시설에서</div>
+            <div class="benefit-circle">학교·관공서<br>등에서</div>
+        </div>
+        <div class="benefit-effect-box">
+            <h3 class="effect-title">CESS의 탁월한 절전효과</h3>
+            <p class="effect-subtitle">초기비용이 들어가지 않는 가장 강력한 경제성</p>
+            <!-- 주요 지표 배지 -->
+            <div class="effect-badges" style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.3rem;margin-bottom:1.2rem;">
+                <span class="effect-stat-badge"><i class="fas fa-bolt"></i> 10% 절전율</span>
+                <span class="effect-stat-badge"><i class="fas fa-coins"></i> 13% 요금 절감</span>
+                <span class="effect-stat-badge"><i class="fas fa-calendar-check"></i> 33개월 회수</span>
+                <span class="effect-stat-badge"><i class="fas fa-globe"></i> 20개국 수출</span>
+                <span class="effect-stat-badge"><i class="fas fa-building"></i> 5,000+ 업체</span>
+            </div>
+            <ul class="effect-list">
+                <li><i class="fas fa-check-circle"></i> 최소 10%의 절전율만 확보되어도 누진세 절감 혜택으로</li>
+                <li><i class="fas fa-check-circle"></i> 13% 이상 전기요금의 절감효과를 가져오며</li>
+                <li><i class="fas fa-check-circle"></i> 33개월 내 구축비용 전액 회수가 가능합니다.</li>
+            </ul>
+            <div class="effect-flow">
+                <div class="flow-item">전력계통 전체의 효율 증대</div>
+                <div class="flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="flow-item">양질의 전기를<br>안정적으로 공급</div>
+                <div class="flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="flow-item">원가 절감<br>(전기요금,<br>유지보수비 절감)</div>
+                <div class="flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="flow-item">생산성 증대</div>
+                <div class="flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="flow-item">기업 이윤의<br>극대화</div>
+                <div class="flow-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="flow-item">기업, 국가간 대외 경쟁력 증대</div>
+            </div>
+        </div>
+        <div class="section-download">
+            <button class="btn-download-img" onclick="downloadImage('https://www.genspark.ai/api/files/s/AexP0p7a', 'CESS_절전효과.jpg')">
+                <i class="fas fa-download"></i> 이미지 다운로드
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== INDEX SECTION ===== -->
+<section id="index-section" class="index-section">
+    <div class="container">
+        <div class="index-grid">
+            <div class="index-left">
+                <p class="index-tagline">전기절감의 새로운 세계, <strong>CESS</strong>가 만들어갑니다.</p>
+                <p class="index-eng">Cosmotor Electricity Saving System</p>
+                <div class="index-product-img">
+                    <img src="https://www.genspark.ai/api/files/s/sHNpf3Su" alt="CESS 제품" class="product-img">
+                </div>
+            </div>
+            <div class="index-right">
+                <div class="index-title-wrap">
+                    <span class="index-circle-icon">i</span>
+                    <h2 class="index-title">NDEX</h2>
+                </div>
+                <nav class="index-nav" aria-label="목차">
+                    <a href="#company" class="index-item"><span class="idx-num">1</span><span class="idx-text">회사개요</span></a>
+                    <a href="#principle" class="index-item"><span class="idx-num">2</span><span class="idx-text">절전원리</span></a>
+                    <a href="#certification" class="index-item"><span class="idx-num">3</span><span class="idx-text">정부인증</span></a>
+                    <a href="#installation" class="index-item"><span class="idx-num">4</span><span class="idx-text">설치현황</span></a>
+                    <a href="#simulation" class="index-item"><span class="idx-num">5</span><span class="idx-text">누진세 시뮬레이션</span></a>
+                    <a href="#roi" class="index-item"><span class="idx-num">6</span><span class="idx-text">구축비용 회수기간</span></a>
+                    <a href="#energy-necessity" class="index-item"><span class="idx-num">7</span><span class="idx-text">에너지 절감 필요성</span></a>
+                    <a href="#process" class="index-item"><span class="idx-num">8</span><span class="idx-text">설치 프로세스</span></a>
+                    <a href="#qa" class="index-item"><span class="idx-num">9</span><span class="idx-text">Q &amp; A</span></a>
+                </nav>
+                <div class="section-download" style="margin-top:1rem;">
+                    <button class="btn-download-img" onclick="downloadImage('https://www.genspark.ai/api/files/s/sHNpf3Su', 'CESS_INDEX.jpg')">
+                        <i class="fas fa-download"></i> INDEX 이미지 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== COMPANY SECTION ===== -->
+<section id="company" class="content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">1</span>
+                <h2 class="section-title">회사개요</h2>
+            </div>
+            <div class="section-top-badge">
+                <span>전기절감의 새로운 세계, CESS가 만들어갑니다.</span>
+                <span class="badge-eng">Cosmotor Electricity Saving System</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="history-title-wrap">
+            <span class="history-h-icon">H</span>
+            <h3 class="history-title">ISTORY <span class="history-sub">Cosmotor가 걸어온길</span></h3>
+        </div>
+
+        <div class="history-timeline">
+            <div class="timeline-phase">
+                <h4 class="phase-title">연구개발단계</h4>
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-year">1996</div>
+                        <div class="timeline-content">
+                            <p><span class="month">04월</span> 개인사업자등록 및 부설기술연구소 설립</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1998</div>
+                        <div class="timeline-content">
+                            <p><span class="month">08월</span> 유해파 차단기 PC-MATE개발</p>
+                            <p><span class="month">12월</span> 코스모토 절전시스템(CESS)가정용/산업용 CESS 개발</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1999</div>
+                        <div class="timeline-content">
+                            <p><span class="month">06월</span> 세계 최초 고압(3300, 6600V) 적용 기술 개발</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2000</div>
+                        <div class="timeline-content">
+                            <p><span class="month">02월</span> 단일제품으로는 세계 최대 100,000kW 제품 생산 기술 개발</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-phase">
+                <h4 class="phase-title">사업단계</h4>
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2002</div>
+                        <div class="timeline-content">
+                            <p><span class="month">02월</span> 법인 변경 설립, 생산 공장 설립</p>
+                            <p><span class="month">08월</span> 타일랜드에 코스모토 현지 법인 설립</p>
+                            <p><span class="month">09월</span> 동종업계 최초 단일품으로 10만 kW 생산체계 구축</p>
+                            <p><span class="month">11월</span> 베트남, 필리핀, 중국, 브라질 지사 및 수출계약</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2003–2007</div>
+                        <div class="timeline-content">
+                            <p><span class="month">2003</span> 전국 기맹점 70호점 OPEN / S그룹·K그룹·H그룹 계열사 공장 설치계약</p>
+                            <p><span class="month">2004</span> KTL 인증 획득 / KT파워텔 기지국 설치 / 중국 CNAL 인증 획득</p>
+                            <p><span class="month">2005</span> ISO 9001:2000 인증 / 중국 사업본부 설립 / 호주·뉴질랜드 Agent 계약</p>
+                            <p><span class="month">2006</span> KT 파워텔 기지국 2,500대 설치 완료 / 인도네시아 판매법인 설립</p>
+                            <p><span class="month">2007</span> 수출인큐베이터(SBC) 수출인큐베이터 선정 / 유럽 CE 인증</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2008–2018</div>
+                        <div class="timeline-content">
+                            <p>일본 CESS 진출 / 환경 인증(ISO 14001) / 멕시코 NOM 취득 / 필리핀 수출독점계약</p>
+                            <p>한국무역협회 무역업고유부호 획득 / 미래지식경영원 지식서비스 최우수기업선정</p>
+                            <p>중국 이동통신 신지국 MOU / 러시아 연방방구 표준 측정위원회 GOST 독서 인증</p>
+                            <p>2018년 신지식인 선정 / 대한민국베스트브랜드대상 산업(전기절전기)부문 대상 선정</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2019–2025</div>
+                        <div class="timeline-content">
+                            <p><span class="month">2019</span> 대한민국성공대상 친환경에너지부문 수상</p>
+                            <p><span class="month">2022</span> 남아프리카공화국 판매권 계약</p>
+                            <p><span class="month">2023</span> 중국 후이자우 판매권 / 필리핀 Cebu Industrial Zone 전시회 참가 / 미국·인도·방글라데시 판매권 계약</p>
+                            <p><span class="month">2024</span> 중국·베트남·태국·호주·영국 판매권 계약 / 일본 특약점 계약</p>
+                            <p><span class="month">2025</span> EMA VIETNAM 전시회 참가 / 중국 CESS 대표부 설립 / 베트남 VINAMAC EXPO CESS 출품</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="history-images-grid">
+            <div class="history-img-card">
+                <img src="https://www.genspark.ai/api/files/s/E6YOfyk4" alt="회사 연혁 1996-2007" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/E6YOfyk4', 'CESS_연혁_1996-2007.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="history-img-card">
+                <img src="https://www.genspark.ai/api/files/s/DJiiJuBl" alt="회사 연혁 2007-2018" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/DJiiJuBl', 'CESS_연혁_2007-2018.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="history-img-card">
+                <img src="https://www.genspark.ai/api/files/s/FEXUzxBx" alt="회사 연혁 2019-2025" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/FEXUzxBx', 'CESS_연혁_2019-2025.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PRINCIPLE SECTION ===== -->
+<section id="principle" class="content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">2</span>
+                <h2 class="section-title">절전원리</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="principle-header">
+            <span class="principle-c-icon">C</span>
+            <h3 class="principle-title">ESS의 효율개선원리(절전 원리)</h3>
+            <span class="principle-badge">누구도 흉내 낼 수 없는 CESS의 절전 기술력</span>
+        </div>
+        <p class="principle-desc">원리는 "전류 흐름 개선" 입니다. 선로 내,외부적인 손실요인(무효전력,누설전류,산화작용,열 발생 등)에 의해 손실이 일어난 전기에너지에 동일한 주파수의 광파장을 방사하여 주파수가 같은 두 파장이 만나서 발생되는 공진현상을 통해 전기에너지를 활성화 시킴으로서 유,무효전력이 줄어들고 역률과 전송효율 및 변환효율이 개선되어 절전효과가 발생됩니다.</p>
+        <div class="func-grid">
+            <div class="func-item">
+                <h5 class="func-num">1차적 기능</h5>
+                <p>에너지 활성화 기능 → 외형파를 정현파로 개선, 위상각 제어 효과로 역률 개선</p>
+            </div>
+            <div class="func-item">
+                <h5 class="func-num">2차적 기능</h5>
+                <p>항구적 파장 유지 기능 → 전도율 향상으로 변환효율 개선효과와 절전효과</p>
+            </div>
+        </div>
+        <div class="principle-img-wrap">
+            <div class="principle-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/xa7TFgaq" alt="CESS 절전원리" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/xa7TFgaq', 'CESS_절전원리.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CERTIFICATION SECTION ===== -->
+<section id="certification" class="content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">3</span>
+                <h2 class="section-title">정부인증</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cert-header">
+            <span class="cert-icon">정</span>
+            <h3 class="cert-title">부인증</h3>
+        </div>
+        <p class="cert-desc">CESS는 인증기관의 엄격한 절전테스트를 통해 <strong>탁월한 품질과 기술력을 공인 받았습니다.</strong></p>
+        <div class="cert-images-grid">
+            <div class="cert-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/7rx9YToR" alt="정부인증 서류" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/7rx9YToR', 'CESS_정부인증_서류.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="cert-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/JUQYUXw7" alt="인증서 목록" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/JUQYUXw7', 'CESS_인증서.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="cert-badges">
+            <div class="cert-badge">특허증<br><small>특허청 등록 제 10-0876163호</small></div>
+            <div class="cert-badge">의장등록<br><small>특허청 등록 제 0335321호</small></div>
+            <div class="cert-badge">상표등록<br><small>특허청 등록 제 0666812호</small></div>
+            <div class="cert-badge">KTL 시험성적서<br><small>04-326-032</small></div>
+            <div class="cert-badge">KTC 시험성적서<br><small>KTC 전표 2011-0006</small></div>
+            <div class="cert-badge">ISO 9001:2008<br><small>Q464610</small></div>
+            <div class="cert-badge">CE 인증마크<br><small>TUV.NORD K1705/E07</small></div>
+            <div class="cert-badge">ROHS 인증<br><small>KOTITI</small></div>
+            <div class="cert-badge">유럽 CE 인증<br><small>2007 획득</small></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== INSTALLATION SECTION ===== -->
+<section id="installation" class="content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">4</span>
+                <h2 class="section-title">설치현황</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="achievement-img-card img-hover-card">
+            <img src="https://www.genspark.ai/api/files/s/Hm2CcZwJ" alt="설치현황 개요" loading="lazy">
+            <div class="img-card-overlay">
+                <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/Hm2CcZwJ', 'CESS_설치현황_개요.jpg')">
+                    <i class="fas fa-download"></i> 다운로드
+                </button>
+            </div>
+        </div>
+
+        <div class="achievement-stats">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-building"></i></div>
+                <div class="stat-num">40<span>여</span></div>
+                <div class="stat-label">국내 공공기관 설치 운용</div>
+                <div class="stat-detail-text">서울시 시설공단, 경북도청, 충남도청, 천안시청, 하남시청, 강릉 하수처리장 등</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-industry"></i></div>
+                <div class="stat-num">5,000<span>여</span></div>
+                <div class="stat-label">국내 업체 설치 운용</div>
+                <div class="stat-detail-text">현대그룹, 롯데그룹, 한화그룹, KT파워텔, 농심, GS프레쉬, SPC, 오뚜기 등</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-globe-asia"></i></div>
+                <div class="stat-num">20<span>개국</span></div>
+                <div class="stat-label">해외 수출</div>
+                <div class="stat-detail-text">중국, 인도, 일본, 필리핀, 베트남, 말레이시아, 인도네시아, 태국, 남아공, 러시아 등</div>
+            </div>
+        </div>
+
+        <!-- 글로벌 현황 인포그래픽 -->
+        <div id="global-infographic-mount"></div>
+
+        <h3 class="sub-section-title">주요 고객사</h3>
+        <div class="clients-img-card img-hover-card">
+            <img src="https://www.genspark.ai/api/files/s/F0xmdDdc" alt="주요 고객사 1" loading="lazy">
+            <div class="img-card-overlay">
+                <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/F0xmdDdc', 'CESS_고객사1.jpg')">
+                    <i class="fas fa-download"></i> 다운로드
+                </button>
+            </div>
+        </div>
+        <div class="clients-img-card img-hover-card" style="margin-top:1.5rem;">
+            <img src="https://www.genspark.ai/api/files/s/THEwss9D" alt="주요 고객사 2" loading="lazy">
+            <div class="img-card-overlay">
+                <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/THEwss9D', 'CESS_고객사2.jpg')">
+                    <i class="fas fa-download"></i> 다운로드
+                </button>
+            </div>
+        </div>
+
+        <h3 class="sub-section-title" style="margin-top:3rem;">설치 사례</h3>
+        <div class="cases-grid">
+            <div class="case-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/qsOd2uGI" alt="설치사례 대상, 농심" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/qsOd2uGI', 'CESS_사례_대상_농심.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="case-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/FHbN8UtP" alt="설치사례 KT파워텔, 롯데마트" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/FHbN8UtP', 'CESS_사례_KT_롯데.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="case-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/exsfD0Zs" alt="설치사례 리츠칼튼, 이마트" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/exsfD0Zs', 'CESS_사례_리츠칼튼_이마트.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="case-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/zux2lgTg" alt="설치사례 태국" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/zux2lgTg', 'CESS_사례_태국.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="case-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/mm9nAFy5" alt="설치사례 필리핀" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/mm9nAFy5', 'CESS_사례_필리핀.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="case-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/BnKix8Wm" alt="아파트 설치 결과" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/BnKix8Wm', 'CESS_아파트_결과.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- v5.0 고객사 브랜드 마퀴 슬라이더 -->
+        <div class="brand-marquee-wrap">
+            <div class="marquee-title">
+                <i class="fas fa-building"></i> 주요 설치 기업
+            </div>
+            <div class="marquee-track-outer">
+                <div class="marquee-track" id="marquee-track">
+                    <div class="marquee-items">
+                        <span class="brand-chip">🏢 현대그룹</span>
+                        <span class="brand-chip">🏢 롯데그룹</span>
+                        <span class="brand-chip">🏢 한화그룹</span>
+                        <span class="brand-chip">📡 KT파워텔</span>
+                        <span class="brand-chip">🍜 농심</span>
+                        <span class="brand-chip">🛒 GS프레쉬</span>
+                        <span class="brand-chip">🥖 SPC</span>
+                        <span class="brand-chip">🥫 오뚜기</span>
+                        <span class="brand-chip">🏨 리츠칼튼</span>
+                        <span class="brand-chip">🛒 이마트</span>
+                        <span class="brand-chip">🛒 롯데마트</span>
+                        <span class="brand-chip">🏙️ 서울시설공단</span>
+                        <span class="brand-chip">🏛️ 경북도청</span>
+                        <span class="brand-chip">🏛️ 충남도청</span>
+                        <span class="brand-chip">🏛️ 천안시청</span>
+                        <span class="brand-chip">🌊 강릉하수처리장</span>
+                        <span class="brand-chip">🚗 Toyota Thailand</span>
+                        <span class="brand-chip">🚗 Mitsubishi Thailand</span>
+                        <span class="brand-chip">🥐 Goldilocks PH</span>
+                        <span class="brand-chip">🌽 Cargill Philippines</span>
+                        <span class="brand-chip">🌱 대상</span>
+                        <span class="brand-chip">🏭 넥센</span>
+                    </div>
+                    <!-- 마퀴 루프용 복제 -->
+                    <div class="marquee-items" aria-hidden="true">
+                        <span class="brand-chip">🏢 현대그룹</span>
+                        <span class="brand-chip">🏢 롯데그룹</span>
+                        <span class="brand-chip">🏢 한화그룹</span>
+                        <span class="brand-chip">📡 KT파워텔</span>
+                        <span class="brand-chip">🍜 농심</span>
+                        <span class="brand-chip">🛒 GS프레쉬</span>
+                        <span class="brand-chip">🥖 SPC</span>
+                        <span class="brand-chip">🥫 오뚜기</span>
+                        <span class="brand-chip">🏨 리츠칼튼</span>
+                        <span class="brand-chip">🛒 이마트</span>
+                        <span class="brand-chip">🛒 롯데마트</span>
+                        <span class="brand-chip">🏙️ 서울시설공단</span>
+                        <span class="brand-chip">🏛️ 경북도청</span>
+                        <span class="brand-chip">🏛️ 충남도청</span>
+                        <span class="brand-chip">🏛️ 천안시청</span>
+                        <span class="brand-chip">🌊 강릉하수처리장</span>
+                        <span class="brand-chip">🚗 Toyota Thailand</span>
+                        <span class="brand-chip">🚗 Mitsubishi Thailand</span>
+                        <span class="brand-chip">🥐 Goldilocks PH</span>
+                        <span class="brand-chip">🌽 Cargill Philippines</span>
+                        <span class="brand-chip">🌱 대상</span>
+                        <span class="brand-chip">🏭 넥센</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="simulation" class="content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">5</span>
+                <h2 class="section-title">누진세 시뮬레이션</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sim-header">
+            <span class="sim-icon">아</span>
+            <h3 class="sim-title">파트단지</h3>
+        </div>
+        <h4 class="sim-sub">누진세 적용 요금절감 시뮬레이션 (세대별)</h4>
+        <p class="sim-highlight"><span class="highlight-red">10% 절전율 적용시 ▶ 13% 절감율 확보</span></p>
+        <div class="sim-conditions">
+            <ul>
+                <li><i class="fas fa-check-square"></i> 분석대상 : 30평형대 / 월평균 350KW사용 / 주택용(고압)</li>
+                <li><i class="fas fa-check-square"></i> 적용단가 : 주택용고압 (전력량요금 + 기후환경요금 + 연료비조정단가) 합산</li>
+                <li><i class="fas fa-check-square"></i> 적용기준 : 200KW → 1단계 / 201KW~400KW → 2단계 / 401KW초과 → 3단계/누진세</li>
+                <li><i class="fas fa-check-square"></i> 세금반영 : 부가가치세(10%) + 전력산업기반기금(2.7%) 포함</li>
+            </ul>
+        </div>
+        <div class="sim-table-wrap">
+            <div class="table-unit">단위 : 원</div>
+            <table class="sim-table">
+                <thead>
+                    <tr>
+                        <th>항 목</th>
+                        <th>절전 전</th>
+                        <th>절전 후</th>
+                        <th class="highlight-col">절감폭</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>전력사용량</td><td>350KW</td><td>315KW</td><td class="highlight-col">35KW (절전율10%)</td></tr>
+                    <tr><td>2단계 누진세</td><td>150KW*188원(28,200원)</td><td>115KW*188원(21,620원)</td><td class="highlight-col">–</td></tr>
+                    <tr><td>순수 전기 요금</td><td>53,270원</td><td>46,680원</td><td class="highlight-col">–</td></tr>
+                    <tr><td>부가세 + 기금</td><td>6,750원</td><td>5,930원</td><td class="highlight-col">–</td></tr>
+                    <tr><td>승강기 + 공동</td><td>20,000원</td><td>17,000원</td><td class="highlight-col">–</td></tr>
+                    <tr class="table-result-row"><td>최종고지서</td><td>80,020원</td><td>69,610원</td><td class="highlight-col result-cell">10,410원 절감</td></tr>
+                    <tr class="table-final-row"><td colspan="3"><strong>절 감 율</strong></td><td class="highlight-col final-cell"><strong>13% 절감</strong></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="sim-img-card img-hover-card">
+            <img src="https://www.genspark.ai/api/files/s/HFKZVlFm" alt="누진세 시뮬레이션" loading="lazy">
+            <div class="img-card-overlay">
+                <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/HFKZVlFm', 'CESS_누진세시뮬레이션.jpg')">
+                    <i class="fas fa-download"></i> 다운로드
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ROI SECTION ===== -->
+<section id="roi" class="content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">6</span>
+                <h2 class="section-title">구축비용 회수기간</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="roi-header">
+            <span class="roi-icon">월</span>
+            <h3 class="roi-title">수익률 예상표</h3>
+        </div>
+        <div class="roi-list">
+            <div class="roi-item"><i class="fas fa-check-circle"></i> 총 건적가 : <strong>250,000,000원</strong> (월 전기료 × 2.5배)</div>
+            <div class="roi-item"><i class="fas fa-check-circle"></i> 월 절감액 : <strong>13,000,000원</strong> (절감율 13% 적용)</div>
+            <div class="roi-item"><i class="fas fa-check-circle"></i> 월 납입액 : <strong>13,000,000원</strong> (33개월 렌탈 / 부가세 포함) – 초기비용이 들어가지 않습니다.</div>
+            <div class="roi-item highlight-orange"><i class="fas fa-check-circle"></i> <strong>장충금 결제 시 19개월내 구축비용 전액 회수가능</strong></div>
+        </div>
+        <div class="roi-table-wrap">
+            <div class="table-unit">단위 : 원</div>
+            <div class="roi-table-label">월 전기요금 100,000,000원 사용 기준 <small>(절전율 10% ▶ 절감율 13% 적용시)</small></div>
+            <table class="roi-table">
+                <thead>
+                    <tr>
+                        <th>월 평균<br>전기요금</th>
+                        <th>설치 및<br>구축비용</th>
+                        <th>절감율<br>(월)</th>
+                        <th>절감요금<br>(월)</th>
+                        <th>납입액<br>(월)</th>
+                        <th>회수개월<br>(렌탈)</th>
+                        <th class="highlight-col">장충금<br>결제</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100,000,000</td><td>250,000,000</td><td>13%</td>
+                        <td class="highlight-red">13,000,000</td><td class="highlight-red">13,000,000</td>
+                        <td>33개월</td><td class="highlight-col roi-result">19개월 내</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="roi-header" style="margin-top:3rem;">
+            <span class="roi-icon">년</span>
+            <h3 class="roi-title">수익률 예상표</h3>
+        </div>
+        <div class="annual-roi-grid">
+            <div class="annual-roi-card"><span class="annual-label">월 수익</span><span class="annual-value">13,000,000원</span></div>
+            <div class="annual-roi-card"><span class="annual-label">1년 수익</span><span class="annual-value">156,000,000원</span></div>
+            <div class="annual-roi-card"><span class="annual-label">5년 수익</span><span class="annual-value">780,000,000원</span></div>
+            <div class="annual-roi-card featured"><span class="annual-label">10년 수익</span><span class="annual-value">1,560,000,000원</span></div>
+            <div class="annual-roi-card featured large"><span class="annual-label">20년 수익</span><span class="annual-value">3,120,000,000원</span></div>
+        </div>
+        <p class="roi-note">위 수익률표에는 매년 전기요금 인상분에 대한 절감 수익률은 반영되지 않았습니다.</p>
+
+        <div class="warranty-section">
+            <div class="warranty-header">
+                <span class="warranty-icon">개</span>
+                <h3 class="warranty-title">런티 적용방식</h3>
+            </div>
+            <div class="warranty-grid">
+                <div class="warranty-card">
+                    <div class="warranty-num">하나</div>
+                    <h4>절전율 확인방식 <small>(설치완료 후 바로 확인 및 적용)</small></h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 절전율은 공신력과 객관성 확보를 위해 국가공인인증기관에서 교정필증을 발급한 공인전력분석기 (EMS-9200)로 절전율을 확인한다.</li>
+                        <li><i class="fas fa-check"></i> <strong>최저 절전율 6% 미만 시 → 계약취소 및 장비철수</strong></li>
+                    </ul>
+                </div>
+                <div class="warranty-card">
+                    <div class="warranty-num">둘</div>
+                    <h4>한전 전기요금 고지서 확인방식 <small>(설치1년 후 확인 및 적용)</small></h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 설치 후 1년간 한전에서 청구된 전기요금 총액기준 → 전년도 청구된 전기요금 총액과 비교 후 절감율을 확인한다.</li>
+                        <li><i class="fas fa-check"></i> 전기요금 절감율 6% 미만 시 → <strong>공급가액 기준 20% 배상</strong></li>
+                        <li><i class="fas fa-check"></i> 전기요금 절감율 5% 미만 시 → <strong>공급가액 기준 40% 배상</strong></li>
+                        <li><i class="fas fa-check"></i> 전기요금 절감율 4% 미만 시 → <strong>공급가액 기준 전액 배상</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="roi-imgs-grid">
+            <div class="roi-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/2byZq8bR" alt="월 수익률 예상표" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/2byZq8bR', 'CESS_월수익예상.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="roi-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/pBCNzjuK" alt="년 수익률 예상표" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/pBCNzjuK', 'CESS_년수익예상.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="roi-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/MxuQLkBx" alt="개런티 적용방식" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/MxuQLkBx', 'CESS_개런티.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PERFORMANCE DASHBOARD SECTION ===== -->
+<section id="dashboard" class="content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-chart-bar"></i></span>
+                <h2 class="section-title">성과 대시보드</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="section-lead-text">CESS 설치 전·후 실측 데이터와 국내외 누적 성과를 한눈에 확인하세요.</p>
+
+        <!-- 핵심 KPI 카드 4종 -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-icon"><i class="fas fa-bolt"></i></div>
+                <div class="kpi-value" data-kpi="11.1">0</div>
+                <div class="kpi-unit">%</div>
+                <div class="kpi-label">평균 절전율 (실측)</div>
+                <div class="kpi-sub">절전 테스트 분석표 기준</div>
+            </div>
+            <div class="kpi-card accent">
+                <div class="kpi-icon"><i class="fas fa-percentage"></i></div>
+                <div class="kpi-value" data-kpi="13">0</div>
+                <div class="kpi-unit">%</div>
+                <div class="kpi-label">전기요금 절감율</div>
+                <div class="kpi-sub">누진세 포함 실절감율</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon"><i class="fas fa-calendar-alt"></i></div>
+                <div class="kpi-value" data-kpi="33">0</div>
+                <div class="kpi-unit">개월</div>
+                <div class="kpi-label">투자 회수 기간</div>
+                <div class="kpi-sub">렌탈 방식 기준</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon"><i class="fas fa-infinity"></i></div>
+                <div class="kpi-value" data-kpi="20">0</div>
+                <div class="kpi-unit">년+</div>
+                <div class="kpi-label">제품 수명</div>
+                <div class="kpi-sub">반영구적 절전 효과 유지</div>
+            </div>
+        </div>
+
+        <!-- Chart.js 차트 2개 -->
+        <div class="charts-grid">
+            <!-- 절전 전후 비교 막대 -->
+            <div class="chart-card">
+                <h3 class="chart-title"><i class="fas fa-chart-bar"></i> 설치 전·후 전력 비교 (실측)</h3>
+                <div class="chart-wrap" style="height:280px;">
+                    <canvas id="chart-before-after"></canvas>
+                </div>
+                <p class="chart-note">출처: CESS 절전 테스트 분석표 (Total 기준)</p>
+            </div>
+            <!-- 연도별 누적 설치 -->
+            <div class="chart-card">
+                <h3 class="chart-title"><i class="fas fa-chart-line"></i> 연도별 누적 설치 업체 수 (추정)</h3>
+                <div class="chart-wrap" style="height:280px;">
+                    <canvas id="chart-growth"></canvas>
+                </div>
+                <p class="chart-note">출처: COSMOTOR 사업 연혁 기반 추정치</p>
+            </div>
+        </div>
+
+        <!-- 절감율 비교 수평 바 -->
+        <div class="saving-compare-wrap">
+            <h3 class="chart-title"><i class="fas fa-exchange-alt"></i> 전기요금 절감 시나리오별 비교</h3>
+            <div class="saving-compare-bars">
+                <div class="sc-row">
+                    <span class="sc-label">절전율 6% 적용</span>
+                    <div class="sc-bar-bg"><div class="sc-bar" data-pct="51" style="background:var(--blue-light)"></div></div>
+                    <span class="sc-pct">~7.8% 절감</span>
+                </div>
+                <div class="sc-row">
+                    <span class="sc-label">절전율 10% 적용</span>
+                    <div class="sc-bar-bg"><div class="sc-bar" data-pct="72" style="background:var(--blue-bright)"></div></div>
+                    <span class="sc-pct">~13% 절감</span>
+                </div>
+                <div class="sc-row">
+                    <span class="sc-label">절전율 12% 적용</span>
+                    <div class="sc-bar-bg"><div class="sc-bar" data-pct="84" style="background:var(--orange)"></div></div>
+                    <span class="sc-pct">~15.6% 절감</span>
+                </div>
+                <div class="sc-row">
+                    <span class="sc-label">절전율 15% 적용</span>
+                    <div class="sc-bar-bg"><div class="sc-bar" data-pct="100" style="background:linear-gradient(90deg,var(--orange),var(--orange-light))"></div></div>
+                    <span class="sc-pct">~19.5% 절감</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PRODUCT COMPARE SECTION ===== -->
+<section id="compare" class="content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-balance-scale"></i></span>
+                <h2 class="section-title">제품 비교</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="section-lead-text">CESS와 다른 방법들의 차이점을 명확히 비교해 보세요.</p>
+        <div class="compare-table-wrap">
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th class="compare-feature-col">비교 항목</th>
+                        <th class="compare-cess-col"><span class="compare-best-badge">⚡ CESS</span><br><small>코스모토</small></th>
+                        <th>일반 절전기기</th>
+                        <th>무설치 (현상 유지)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="compare-feature">절전 원리</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 광파장 공진 에너지 활성화</td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 콘덴서 역률 보정</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 없음</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">평균 절전율</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 10~15%</td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 3~5%</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 0%</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">누진세 절감</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 최대 13%+ 절감</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 미미함</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 없음</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">초기 투자 회수</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 33개월 (렌탈)</td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 48~60개월</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 회수 불가</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">제품 수명</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 20년+ (반영구)</td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 5~10년</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 해당 없음</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">고조파 억제</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 우수 (억제 기능)</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 없음</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 없음</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">설치 공사</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 30분 병렬 설치</td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 수 시간</td>
+                        <td><i class="fas fa-check-circle c-good"></i> 불필요</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">국제 인증</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> KTL·CE·ISO·GOST 등 9종</td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 1~2종</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 해당 없음</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">20년 총 절감액<br><small>(월 1,000만원 기준)</small></td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> <strong>약 31억 2천만원</strong></td>
+                        <td><i class="fas fa-minus-circle c-mid"></i> 약 7억 2천만원</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 0원</td>
+                    </tr>
+                    <tr>
+                        <td class="compare-feature">렌탈 옵션</td>
+                        <td class="compare-cess"><i class="fas fa-check-circle c-good"></i> 가능 (33개월)</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 불가</td>
+                        <td><i class="fas fa-times-circle c-bad"></i> 해당 없음</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="compare-cta">
+            <button class="btn-compare-calc" onclick="document.getElementById('calculator').scrollIntoView({behavior:'smooth'})">
+                <i class="fas fa-calculator"></i> 내 회사 절감액 직접 계산해보기
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ENERGY NECESSITY SECTION ===== -->
+<section id="energy-necessity" class="content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">7</span>
+                <h2 class="section-title">에너지 절감의 필요성</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="energy-header">
+            <span class="energy-icon">친</span>
+            <h3 class="energy-title">환경 및 에너지 절감 추세에 부응하는 정부정책 사업추진</h3>
+        </div>
+        <div class="energy-content-grid">
+            <div class="energy-news-card">
+                <div class="news-source">한국경제</div>
+                <h4 class="news-title">[속보] 내일부터 산업용 전기요금 9.7% 인상...주택·일반용은 동결</h4>
+                <p class="news-date">입력 2024.10.23. 오전 10:02</p>
+                <div class="news-stats">
+                    <div class="news-stat">
+                        <span class="stat-label-news">산업용 전기요금 최근 4년간</span>
+                        <span class="stat-value-news big">75% 폭등!</span>
+                        <span class="stat-detail">21년 1kwh당 102.4원 → 24년 179.2원으로 인상</span>
+                    </div>
+                    <div class="news-stat">
+                        <span class="stat-label-news">가정용 전기요금 최근 4년간</span>
+                        <span class="stat-value-news">39.3% 폭등!</span>
+                        <span class="stat-detail">21년 1kwh당 118.1원 → 23년 164.5원으로 인상</span>
+                    </div>
+                </div>
+            </div>
+            <div class="energy-points">
+                <div class="energy-point"><i class="fas fa-check-circle"></i><span>전기요금의 지속적 상승 예상</span></div>
+                <div class="energy-point"><i class="fas fa-check-circle"></i><span>세계적으로 온실가스 배출량 감축 위한 의무 강화 <strong>탄소배출 감량 의무 실시</strong></span></div>
+            </div>
+        </div>
+        <div class="energy-img-card img-hover-card">
+            <img src="https://www.genspark.ai/api/files/s/va696QRz" alt="에너지 절감 필요성" loading="lazy">
+            <div class="img-card-overlay">
+                <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/va696QRz', 'CESS_에너지절감필요성.jpg')">
+                    <i class="fas fa-download"></i> 다운로드
+                </button>
+            </div>
+        </div>
+
+        <!-- v5.0 전기요금 상승 추이 Chart -->
+        <div class="energy-chart-wrap">
+            <h3 class="chart-title"><i class="fas fa-chart-line"></i> 국내 전기요금 상승 추이 (2020–2025)</h3>
+            <div class="charts-grid" style="grid-template-columns:1fr 1fr;">
+                <div class="chart-card">
+                    <h4 class="chart-subtitle">산업용 전기요금 (원/kWh)</h4>
+                    <div class="chart-wrap" style="height:220px;">
+                        <canvas id="chart-industry-tariff"></canvas>
+                    </div>
+                    <p class="chart-note">2021→2024년 <strong style="color:var(--red)">+75% 폭등</strong> (102.4원→179.2원)</p>
+                </div>
+                <div class="chart-card">
+                    <h4 class="chart-subtitle">가정용 전기요금 (원/kWh)</h4>
+                    <div class="chart-wrap" style="height:220px;">
+                        <canvas id="chart-home-tariff"></canvas>
+                    </div>
+                    <p class="chart-note">2021→2023년 <strong style="color:var(--orange)">+39.3% 폭등</strong> (118.1원→164.5원)</p>
+                </div>
+            </div>
+            <div class="energy-chart-cta">
+                <p>📈 전기요금은 계속 오릅니다. <strong>지금 CESS로 고정비를 낮추세요.</strong></p>
+                <button class="btn-primary" onclick="document.getElementById('calculator').scrollIntoView({behavior:'smooth'})">
+                    <i class="fas fa-calculator"></i> 내 절감액 계산하기
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROCESS SECTION ===== -->
+<section id="process" class="content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">8</span>
+                <h2 class="section-title">설치 프로세스</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-num">01</div>
+                <div class="step-box">현장조사</div>
+                <div class="step-desc">현장확인 및 기초자료 조사</div>
+            </div>
+            <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+            <div class="process-step">
+                <div class="step-num">02</div>
+                <div class="step-box">현장 테스트</div>
+                <div class="step-desc">설치 전/후 시험(1~2시간)</div>
+            </div>
+            <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+            <div class="process-step">
+                <div class="step-num">03</div>
+                <div class="step-box active">평가 및 계약</div>
+                <div class="step-desc">결과리포트 및 견적서 제출, 설치 일정 협의/계약</div>
+            </div>
+            <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+            <div class="process-step">
+                <div class="step-num">04</div>
+                <div class="step-box">CESS 설치</div>
+                <div class="step-desc">발주 후 한달 이내 설치 (제작에 2주 소요)</div>
+            </div>
+        </div>
+
+        <div class="analysis-section">
+            <div class="analysis-header">
+                <span class="analysis-icon">절</span>
+                <h3 class="analysis-title">전테스트 분석표</h3>
+            </div>
+            <p class="analysis-subtitle">CESS의 완벽한 성능, 이렇게 입증됩니다.</p>
+            <div class="table-scroll-wrap">
+                <table class="analysis-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">항목</th><th rowspan="2">구분</th>
+                            <th>전압(V)</th><th>전류(A)</th><th>유효전력(kW)</th><th>피상전력(kVA)</th><th>전산전력(kWh)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td rowspan="3">Total</td><td>설치 전</td><td>375.5</td><td>328.45</td><td>187.45</td><td>213.41</td><td>94.50</td></tr>
+                        <tr><td>설치 후</td><td>376.4</td><td>293.23</td><td>168.28</td><td>191.05</td><td>84.00</td></tr>
+                        <tr class="result-row"><td>계측결과</td><td class="positive">+0.2%</td><td class="negative">-10.7%</td><td class="negative">-10.2%</td><td class="negative">-10.5%</td><td class="negative">-11.1%</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="analysis-result">전력량 감소에 따른 절전율 : <strong>11.1%</strong></p>
+        </div>
+
+        <div class="process-imgs-grid">
+            <div class="process-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/4K8lspys" alt="설치 프로세스" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/4K8lspys', 'CESS_설치프로세스.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="process-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/d6Fmcq3C" alt="병렬설치 실제 CASE" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/d6Fmcq3C', 'CESS_병렬설치.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="process-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/HCoFgKEy" alt="절전 테스트 분석표" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/HCoFgKEy', 'CESS_분석표.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Q&A SECTION ===== -->
+<section id="qa" class="content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num">9</span>
+                <h2 class="section-title">Q &amp; A</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Q&A 검색 필터 -->
+        <div class="qa-search-wrap">
+            <div class="qa-search-inner">
+                <i class="fas fa-search qa-search-icon"></i>
+                <input type="text" id="qa-search" class="qa-search-input" placeholder="궁금한 점을 검색하세요 (예: 안전성, 설치, 렌탈...)">
+                <button class="qa-search-clear" id="qa-search-clear" aria-label="검색어 지우기" style="display:none">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="qa-filter-tabs">
+                <button class="qa-tab active" data-cat="all">전체 <span class="qa-tab-count">14</span></button>
+                <button class="qa-tab" data-cat="안전성">안전성</button>
+                <button class="qa-tab" data-cat="시험">시험·검증</button>
+                <button class="qa-tab" data-cat="설치">설치·용량</button>
+                <button class="qa-tab" data-cat="계약">계약·A/S</button>
+            </div>
+        </div>
+
+        <div class="qa-accordion-layout" id="qa-accordion">
+            <!-- 카테고리 1 -->
+            <div class="qa-cat-section" data-cat="안전성">
+                <div class="qa-cat-header">
+                    <span class="qa-cat-dot"></span>
+                    <span class="qa-cat-label">영향도 및 안전성</span>
+                    <span class="qa-cat-badge">2</span>
+                </div>
+                <div class="qa-acc-item" data-num="1">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q1</span>
+                        <span class="qa-q-text">CESS를 설치하면 고조파(Harmonics)나 노이즈 등이 발생하지 않나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 전혀 발생하지 않습니다. 오히려 고조파나 노이즈 등을 억제하는 역할을 해 줍니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="2">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q2</span>
+                        <span class="qa-q-text">우리 회사는 고가 장비를 많이 사용하는데 안전성이 문제가 없나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 전혀 문제 없습니다. 오히려 저희 CESS는 양질의 전원을 일정하게 공급해 주는 역할을 하기 때문에 안정성에 있어 더욱 안정적으로 운용이 가능합니다. 특히 장비의 수명연장 등 순기능이 더 많기 때문에 고가 장비일수록 CESS를 채택하시면 후회하지 않으실 것입니다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 카테고리 2 -->
+            <div class="qa-cat-section" data-cat="시험">
+                <div class="qa-cat-header">
+                    <span class="qa-cat-dot"></span>
+                    <span class="qa-cat-label">시험 및 검증방안</span>
+                    <span class="qa-cat-badge">2</span>
+                </div>
+                <div class="qa-acc-item" data-num="3">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q3</span>
+                        <span class="qa-q-text">CESS 설치 후 절전 효과를 어떻게 확인할 수 있나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> CESS 설치 후 공인전력 분석기(EMS9200)로 절전율을 확인할 수 있으며, 전력 소비가 계절별로 일정한 양상을 보인다면 전년 동월 전력량과 비교해 보거나, 생산량 대비 전력 수요량을 체크해 보면 확인할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="4">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q4</span>
+                        <span class="qa-q-text">TEST는 어떻게 하나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> DEMO TEST는 일정하게 운용되는 부하를 선정하여 전/후 1~2시간 정도 합니다. 테스트 위치는 부하 설비 2차 측에서 하며, TEST는 전력 분석기로 V, A, kW, kVA, kWh, 고조파, 역률 등 전기의 모든 것을 분석하여 보고서를 만들어 귀사에 제출하게 됩니다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 카테고리 3 -->
+            <div class="qa-cat-section" data-cat="설치">
+                <div class="qa-cat-header">
+                    <span class="qa-cat-dot"></span>
+                    <span class="qa-cat-label">설치 및 용량</span>
+                    <span class="qa-cat-badge">5</span>
+                </div>
+                <div class="qa-acc-item" data-num="5">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q5</span>
+                        <span class="qa-q-text">TEST 할 때 전기 차단기를 내려야 하나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 저희 제품은 병렬 연결이기 때문에 TEST 및 설치가 간단하고, 차단기를 내리지 않고 시험할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="6">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q6</span>
+                        <span class="qa-q-text">만일 제품을 설치한다면 어디에 하나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> ACB 2차 측에 합니다. 이때는 차단기를 내려야 하며 설치 시간은 30분 정도 소요됩니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="7">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q7</span>
+                        <span class="qa-q-text">설치 후 설비가 추가 설치되면 어떻게 하나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 만약에 추후 부하율이 상승하거나 추가 설비가 설치되면 용량을 다시 산정하여 부족한 만큼 추가로 설치하면 됩니다. CESS는 병렬 연결이기 때문에 추가 설치 및 이전이 간단합니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="8">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q8</span>
+                        <span class="qa-q-text">CESS는 반 영구적 사용이 가능하다고 하는데 장기간 사용 시 절전율 저하 현상은 없나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> CESS는 광파장을 이용한 공진현상으로 전기에너지를 활성화시켜주는 시스템으로 장기간 사용시에도 장비의 효율이 떨어지거나 절전율의 저하 현상은 발생되지 않습니다. 또한 장비수명은 20년 이상 반 영구적 사용이 가능해 지속적인 원가 절감으로 기업의 부담을 최소화할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="9">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q9</span>
+                        <span class="qa-q-text">CESS는 어떤 방식으로 전류를 감소하여 전기요금을 절감할 수 있나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 원리는 "전류 흐름 개선"입니다. 선로 내·외부적인 손실요인에 의해 손실이 일어난 전기에너지에 동일한 주파수의 광파장을 방사하여 주파수가 같은 두 파장이 만나서 발생되는 공진현상을 통해 전기에너지를 활성화시킴으로써 절전효과가 발생됩니다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 카테고리 4 -->
+            <div class="qa-cat-section" data-cat="계약">
+                <div class="qa-cat-header">
+                    <span class="qa-cat-dot"></span>
+                    <span class="qa-cat-label">계약 및 A/S</span>
+                    <span class="qa-cat-badge">5</span>
+                </div>
+                <div class="qa-acc-item" data-num="10">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q10</span>
+                        <span class="qa-q-text">설치 시 수전용량 전부를 설치하나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 그렇지 않습니다. 계약 용량이 1000kW라면 각 TR 별 부하율을 계산하고, 약 30% 정도의 여유율을 줍니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="11">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q11</span>
+                        <span class="qa-q-text">회사 전기실이 좁아서 설치할 장소가 마땅치 않은데 대안이 있나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 전기실이 좁은 경우 외부에 외함을 만들어서 설치하여도 안전합니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="12">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q12</span>
+                        <span class="qa-q-text">CESS 설치 후 전기 사용량이 급격히 늘어 실 부하율이 설치 용량을 초과하게 되면 안전성이나 효율에 문제가 발생하지 않나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 사용량이 실 부하율을 초과하였다 하더라도 안전성에는 문제가 없습니다. 다만, 효율 측면에서 절전율의 감소 요인이 되기 때문에 전기사용 용량에 맞게 추가 증설하여 사용하는 것이 좋습니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="13">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q13</span>
+                        <span class="qa-q-text">계약 후 제품 설치하는데 기간이 얼마나 걸리나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> CESS는 100% 현장 상황에 맞게 설계하여 주문제작을 하고 있으며, 기간은 15일 정도 소요됩니다.</p>
+                    </div>
+                </div>
+                <div class="qa-acc-item" data-num="14">
+                    <button class="qa-acc-btn" aria-expanded="false">
+                        <span class="qa-num">Q14</span>
+                        <span class="qa-q-text">대금 결제 방식은 어떻게 하나요?</span>
+                        <i class="fas fa-chevron-down qa-chevron"></i>
+                    </button>
+                    <div class="qa-acc-body">
+                        <p><i class="fas fa-check-circle qa-a-icon"></i> 회사의 여건에 따라서 현금 또는 렌탈 프로그램을 이용할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 검색 결과 없음 -->
+        <div class="qa-no-result" id="qa-no-result" style="display:none">
+            <i class="fas fa-search-minus"></i>
+            <p>검색 결과가 없습니다. 다른 키워드로 검색해보세요.</p>
+        </div>
+
+        <div class="qa-imgs-grid">
+            <div class="qa-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/qLKWudCV" alt="Q&A 1" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/qLKWudCV', 'CESS_QA1.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="qa-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/8OFjGXOW" alt="Q&A 2" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/8OFjGXOW', 'CESS_QA2.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+            <div class="qa-img-card img-hover-card">
+                <img src="https://www.genspark.ai/api/files/s/dFjDbDiz" alt="Q&A 3" loading="lazy">
+                <div class="img-card-overlay">
+                    <button class="btn-img-download" onclick="downloadImage('https://www.genspark.ai/api/files/s/dFjDbDiz', 'CESS_QA3.jpg')">
+                        <i class="fas fa-download"></i> 다운로드
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== v5.0 탄소절감 인포그래픽 섹션 ===== -->
+<section id="carbon" class="content-section carbon-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-leaf"></i></span>
+                <h2 class="section-title">탄소절감 효과</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="section-lead-text">CESS는 전기요금 절감을 넘어, ESG 경영의 핵심 탄소중립 솔루션입니다.</p>
+
+        <!-- 탄소절감 KPI 카드 -->
+        <div class="carbon-kpi-grid">
+            <div class="carbon-kpi-card">
+                <div class="carbon-kpi-icon">🌱</div>
+                <div class="carbon-kpi-value" data-carbon="0.4781">0</div>
+                <div class="carbon-kpi-unit">kg CO₂/kWh</div>
+                <div class="carbon-kpi-label">한국 전력 배출계수 (2023)</div>
+            </div>
+            <div class="carbon-kpi-card accent-green">
+                <div class="carbon-kpi-icon">♻️</div>
+                <div class="carbon-kpi-value" data-carbon="11.1">0</div>
+                <div class="carbon-kpi-unit">% 절전</div>
+                <div class="carbon-kpi-label">= 그만큼 CO₂ 감소</div>
+            </div>
+            <div class="carbon-kpi-card">
+                <div class="carbon-kpi-icon">🌳</div>
+                <div class="carbon-kpi-value" data-carbon="20">0</div>
+                <div class="carbon-kpi-unit">년 이상</div>
+                <div class="carbon-kpi-label">반영구적 탄소감축 효과</div>
+            </div>
+            <div class="carbon-kpi-card accent-green">
+                <div class="carbon-kpi-icon">🏆</div>
+                <div class="carbon-kpi-value" data-carbon="5000">0</div>
+                <div class="carbon-kpi-unit">여 업체</div>
+                <div class="carbon-kpi-label">국내 탄소감축 기여</div>
+            </div>
+        </div>
+
+        <!-- 탄소절감 계산기 -->
+        <div class="carbon-calc-wrap">
+            <div class="carbon-calc-header">
+                <i class="fas fa-calculator"></i>
+                <h3>내 회사 탄소절감량 계산</h3>
+                <p>월 전기 사용량을 입력하면 CESS 설치 시 CO₂ 감축량을 바로 확인하세요.</p>
+            </div>
+            <div class="carbon-calc-body">
+                <div class="carbon-input-row">
+                    <div class="carbon-field">
+                        <label for="carbon-kwh">월 전기 사용량 (kWh)</label>
+                        <div class="carbon-input-wrap">
+                            <i class="fas fa-bolt"></i>
+                            <input type="number" id="carbon-kwh" placeholder="예: 10000" value="10000" min="100" max="10000000">
+                        </div>
+                    </div>
+                    <div class="carbon-field">
+                        <label for="carbon-rate-select">절전율 (%)</label>
+                        <div class="carbon-input-wrap">
+                            <i class="fas fa-leaf"></i>
+                            <select id="carbon-rate-select">
+                                <option value="6">6% (최소)</option>
+                                <option value="10" selected>10% (평균)</option>
+                                <option value="12">12%</option>
+                                <option value="15">15% (최대)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn-carbon-calc" id="btn-carbon-calc">
+                        <i class="fas fa-leaf"></i> 탄소절감 계산
+                    </button>
+                </div>
+                <div class="carbon-result-row" id="carbon-result" style="display:none">
+                    <div class="carbon-result-card">
+                        <div class="cr-icon">🌱</div>
+                        <div class="cr-label">월 CO₂ 감축량</div>
+                        <div class="cr-value" id="cr-monthly">0</div>
+                        <div class="cr-unit">kg CO₂</div>
+                    </div>
+                    <div class="carbon-result-card">
+                        <div class="cr-icon">🌳</div>
+                        <div class="cr-label">연간 CO₂ 감축량</div>
+                        <div class="cr-value" id="cr-yearly">0</div>
+                        <div class="cr-unit">ton CO₂</div>
+                    </div>
+                    <div class="carbon-result-card accent-green">
+                        <div class="cr-icon">🌲</div>
+                        <div class="cr-label">나무 심기 환산</div>
+                        <div class="cr-value" id="cr-trees">0</div>
+                        <div class="cr-unit">그루/년</div>
+                    </div>
+                    <div class="carbon-result-card">
+                        <div class="cr-icon">🚗</div>
+                        <div class="cr-label">자동차 주행 감축</div>
+                        <div class="cr-value" id="cr-cars">0</div>
+                        <div class="cr-unit">km/년</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 탄소 감축 시각화 바 -->
+        <div class="carbon-visual-section">
+            <h3 class="carbon-vis-title"><i class="fas fa-chart-bar"></i> ESG / 탄소중립 정책 부합도</h3>
+            <div class="carbon-bars">
+                <div class="carbon-bar-row">
+                    <span class="cb-label">온실가스 감축 목표 (2030 NDC)</span>
+                    <div class="cb-bar-bg"><div class="cb-bar" data-width="85" style="background: linear-gradient(90deg,#16a34a,#4ade80)"></div></div>
+                    <span class="cb-note">✅ CESS로 기여 가능</span>
+                </div>
+                <div class="carbon-bar-row">
+                    <span class="cb-label">RE100 / 탄소중립 기업 이행</span>
+                    <div class="cb-bar-bg"><div class="cb-bar" data-width="75" style="background: linear-gradient(90deg,#0284c7,#38bdf8)"></div></div>
+                    <span class="cb-note">✅ 에너지 효율 인증 활용</span>
+                </div>
+                <div class="carbon-bar-row">
+                    <span class="cb-label">ISO 50001 에너지경영시스템</span>
+                    <div class="cb-bar-bg"><div class="cb-bar" data-width="90" style="background: linear-gradient(90deg,#7c3aed,#a78bfa)"></div></div>
+                    <span class="cb-note">✅ 절전율 데이터 활용</span>
+                </div>
+                <div class="carbon-bar-row">
+                    <span class="cb-label">ESG 보고서 환경 지표 개선</span>
+                    <div class="cb-bar-bg"><div class="cb-bar" data-width="80" style="background: linear-gradient(90deg,#e87a1e,#f5a623)"></div></div>
+                    <span class="cb-note">✅ 전력 사용량 감소 반영</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== v5.0 고객 후기 섹션 ===== -->
+<section id="reviews" class="content-section reviews-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-star"></i></span>
+                <h2 class="section-title">고객 후기</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="section-lead-text">실제 CESS 설치 고객사의 생생한 후기를 확인하세요.</p>
+
+        <!-- 평균 평점 -->
+        <div class="review-rating-summary">
+            <div class="rating-big">
+                <span class="rating-num">4.9</span>
+                <div class="rating-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">5,000+ 설치 업체 기준</span>
+            </div>
+            <div class="rating-bars-wrap">
+                <div class="rating-bar-row"><span>5점</span><div class="rb-bg"><div class="rb-fill" data-w="87" style="background:#f5a623"></div></div><span class="rb-pct">87%</span></div>
+                <div class="rating-bar-row"><span>4점</span><div class="rb-bg"><div class="rb-fill" data-w="10" style="background:#f5a623"></div></div><span class="rb-pct">10%</span></div>
+                <div class="rating-bar-row"><span>3점</span><div class="rb-bg"><div class="rb-fill" data-w="2" style="background:#94a3b8"></div></div><span class="rb-pct">2%</span></div>
+                <div class="rating-bar-row"><span>2점</span><div class="rb-bg"><div class="rb-fill" data-w="1" style="background:#94a3b8"></div></div><span class="rb-pct">1%</span></div>
+                <div class="rating-bar-row"><span>1점</span><div class="rb-bg"><div class="rb-fill" data-w="0" style="background:#ef4444"></div></div><span class="rb-pct">0%</span></div>
+            </div>
+        </div>
+
+        <!-- 후기 슬라이더 -->
+        <div class="review-slider-wrap">
+            <div class="review-slider" id="review-slider">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">🏭</div>
+                        <div class="review-meta">
+                            <div class="review-company">국내 중견 제조업체 (경기도)</div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-badge">절전율 12.3%</div>
+                    </div>
+                    <p class="review-text">"처음에는 반신반의했는데, 실제로 설치 후 다음 달 전기요금 고지서를 보고 깜짝 놀랐습니다. 매달 약 1,500만원 이상 절감되고 있으며, 설치 후 2년이 지난 지금도 동일한 절감 효과가 유지되고 있습니다."</p>
+                    <div class="review-result"><i class="fas fa-bolt"></i> 월 절감액: 약 1,500만원 | 설치 후 26개월째 운영 중</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">🏨</div>
+                        <div class="review-meta">
+                            <div class="review-company">대형 호텔 (서울 강남구)</div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-badge">절전율 10.8%</div>
+                    </div>
+                    <p class="review-text">"호텔 특성상 365일 24시간 전력을 사용하는 만큼 전기요금이 매달 최대 고민이었습니다. CESS 도입 후 연간 2억원 이상의 전기요금을 절감하고 있으며, ESG 경영 보고서에도 탄소감축 실적으로 반영되고 있습니다."</p>
+                    <div class="review-result"><i class="fas fa-bolt"></i> 연 절감액: 약 2억원 이상 | 투자 회수 28개월 완료</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">🏪</div>
+                        <div class="review-meta">
+                            <div class="review-company">대형 마트 체인 (전국 3개 지점)</div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="review-badge">절전율 9.7%</div>
+                    </div>
+                    <p class="review-text">"3개 지점에 동시 도입했는데 각 지점마다 평균 9~11% 절전 효과가 나타났습니다. 초기 투자비용 없이 렌탈 방식으로 진행해서 경영진 설득도 쉬웠고, 현재 추가 5개 지점 도입을 검토 중입니다."</p>
+                    <div class="review-result"><i class="fas fa-bolt"></i> 3개 지점 합계 월 절감: 약 4,200만원</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">🏗️</div>
+                        <div class="review-meta">
+                            <div class="review-company">아파트 단지 관리사무소 (경기 수원, 850세대)</div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-badge">절감율 13.2%</div>
+                    </div>
+                    <p class="review-text">"아파트 공용 전기요금 절감 방법을 찾던 중 CESS를 알게 됐습니다. 설치 후 세대별 전기요금이 평균 1만원 이상 줄어들었고, 입주민들의 만족도가 매우 높습니다. 관리비 절감으로 관리사무소 신뢰도도 크게 높아졌습니다."</p>
+                    <div class="review-result"><i class="fas fa-bolt"></i> 세대당 월 절감: 약 10,400원 | 입주민 만족도 ⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">🏭</div>
+                        <div class="review-meta">
+                            <div class="review-company">식품 가공 공장 (충남 아산)</div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-badge">절전율 11.1%</div>
+                    </div>
+                    <p class="review-text">"식품 공장은 냉동·냉장 설비가 많아 전기 소비가 엄청났습니다. CESS 설치 후 공장 전체 전력 소비가 눈에 띄게 줄었고, 특히 모터류 설비의 수명도 늘어난 것 같습니다. 투자 대비 효과가 탁월합니다."</p>
+                    <div class="review-result"><i class="fas fa-bolt"></i> 월 절감액: 약 2,300만원 | 장비 수명 연장 효과 추가</div>
+                </div>
+            </div>
+            <div class="review-controls">
+                <button class="review-btn-prev" id="review-prev" aria-label="이전 후기">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="review-dots" id="review-dots"></div>
+                <button class="review-btn-next" id="review-next" aria-label="다음 후기">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== v5.0 실시간 누적 절감 카운터 ===== -->
+<section id="live-counter" class="live-counter-section">
+    <div class="container">
+        <div class="live-counter-inner">
+            <div class="live-counter-title">
+                <span class="live-dot"></span>
+                <h3>CESS 실시간 누적 절감 현황 (추정)</h3>
+                <span class="live-tag">LIVE</span>
+            </div>
+            <div class="live-counters-grid">
+                <div class="live-c-item">
+                    <div class="live-c-value" id="lc-money">₩ 0</div>
+                    <div class="live-c-label">오늘 절감된 전기요금</div>
+                    <div class="live-c-sub">5,000개 업체 평균 기준</div>
+                </div>
+                <div class="live-c-item">
+                    <div class="live-c-value" id="lc-kwh">0</div>
+                    <div class="live-c-label">오늘 절감된 전력량 (kWh)</div>
+                    <div class="live-c-sub">절전율 10% 적용</div>
+                </div>
+                <div class="live-c-item">
+                    <div class="live-c-value" id="lc-co2">0</div>
+                    <div class="live-c-label">오늘 감축된 CO₂ (kg)</div>
+                    <div class="live-c-sub">0.4781 kg CO₂/kWh</div>
+                </div>
+                <div class="live-c-item">
+                    <div class="live-c-value" id="lc-trees">0</div>
+                    <div class="live-c-label">나무 심기 환산 (그루)</div>
+                    <div class="live-c-sub">CO₂ 22kg/그루/년</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT CTA BAND ===== -->
+<section id="cta-band" class="contact-cta-band" aria-label="문의 및 연락">
+    <div class="container">
+        <h3><i class="fas fa-bolt"></i> CESS 절감 효과, 지금 바로 확인하세요!</h3>
+        <p>초기비용 없이 33개월 내 전액 회수 — 귀사의 전기요금 절감 가능 여부를 무료로 진단해드립니다.</p>
+        <div class="contact-cta-btns">
+            <button class="btn-cta-white btn-cta-primary" id="cta-calc-btn" onclick="document.getElementById('calculator').scrollIntoView({behavior:'smooth'})">
+                <i class="fas fa-calculator"></i> 절감 계산기 사용하기
+            </button>
+            <button class="btn-cta-white btn-cta-inquiry" id="cta-inquiry-btn">
+                <i class="fas fa-clipboard-check"></i> 무료 진단 신청
+            </button>
+            <a href="https://www.cosmotor.net" target="_blank" rel="noopener" class="btn-cta-outline">
+                <i class="fas fa-globe"></i> 공식 홈페이지 방문
+            </a>
+            <button class="btn-cta-outline" onclick="document.getElementById('download-all-btn').click()">
+                <i class="fas fa-download"></i> 제안서 자료 다운로드
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ROI CALCULATOR SECTION ===== -->
+<section id="calculator" class="content-section calc-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-calculator"></i></span>
+                <h2 class="section-title" data-i18n="section_calc">⚡ 전기요금 절감 계산기</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="calc-intro" data-i18n="calc_intro">귀사의 월 전기요금을 입력하면 CESS 설치 시 예상 절감액과 투자 회수 기간을 바로 확인할 수 있습니다.</p>
+        <div class="calc-wrapper">
+            <!-- 입력 패널 -->
+            <div class="calc-input-panel">
+                <h3 class="calc-panel-title"><i class="fas fa-sliders-h"></i> 입력 정보</h3>
+                <div class="calc-field">
+                    <label for="monthly-bill" data-i18n="calc_label_bill">월 평균 전기요금 (원)</label>
+                    <div class="calc-input-wrap">
+                        <span class="calc-prefix">₩</span>
+                        <input type="number" id="monthly-bill" class="calc-input" value="10000000" min="1000000" max="500000000" step="1000000">
+                    </div>
+                    <input type="range" id="bill-slider" class="calc-slider" min="1000000" max="500000000" step="1000000" value="10000000">
+                    <div class="calc-slider-labels">
+                        <span>100만원</span><span>5억원</span>
+                    </div>
+                </div>
+                <div class="calc-field">
+                    <label for="save-rate" data-i18n="calc_label_rate">예상 절전율 (%)</label>
+                    <div class="calc-rate-btns">
+                        <button class="rate-btn" data-rate="6">6%</button>
+                        <button class="rate-btn active" data-rate="10">10%</button>
+                        <button class="rate-btn" data-rate="12">12%</button>
+                        <button class="rate-btn" data-rate="15">15%</button>
+                    </div>
+                    <div class="calc-input-wrap">
+                        <input type="number" id="save-rate" class="calc-input" value="10" min="6" max="20" step="1">
+                        <span class="calc-suffix">%</span>
+                    </div>
+                </div>
+                <div class="calc-field">
+                    <label for="payment-type">납입 방식</label>
+                    <div class="calc-radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="payment" value="rental" checked> 렌탈 (33개월)
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="payment" value="lump"> 장충금 일시납
+                        </label>
+                    </div>
+                </div>
+                <button class="btn-calc" id="calc-btn">
+                    <i class="fas fa-bolt"></i> 절감 효과 계산하기
+                </button>
+            </div>
+
+            <!-- 결과 패널 -->
+            <div class="calc-result-panel" id="calc-result">
+                <h3 class="calc-panel-title"><i class="fas fa-chart-line"></i> 예상 절감 결과</h3>
+                <div class="calc-result-grid">
+                    <div class="result-card primary">
+                        <div class="result-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="result-label">월 절감 전기요금</div>
+                        <div class="result-value" id="r-monthly-save">—</div>
+                        <div class="result-sub" id="r-save-rate-label">절감율 ~%</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-calendar-check"></i></div>
+                        <div class="result-label">1년 절감액</div>
+                        <div class="result-value" id="r-yearly-save">—</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-coins"></i></div>
+                        <div class="result-label">설치 & 구축비용 (견적)</div>
+                        <div class="result-value" id="r-install-cost">—</div>
+                        <div class="result-sub">월 전기요금 × 2.5</div>
+                    </div>
+                    <div class="result-card highlight">
+                        <div class="result-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="result-label">투자 회수 기간</div>
+                        <div class="result-value" id="r-payback">—</div>
+                        <div class="result-sub" id="r-payback-sub">렌탈 납입액과 절감액 비교</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-chart-bar"></i></div>
+                        <div class="result-label">10년 총 절감액</div>
+                        <div class="result-value" id="r-10year">—</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-infinity"></i></div>
+                        <div class="result-label">20년 총 절감액</div>
+                        <div class="result-value" id="r-20year">—</div>
+                    </div>
+                </div>
+                <!-- 절감율 시각화 바 -->
+                <div class="calc-visual-bar-wrap" id="calc-visual" style="display:none">
+                    <div class="visual-bar-label">
+                        <span>절전율</span>
+                        <span id="vb-save-pct" class="visual-pct">0%</span>
+                    </div>
+                    <div class="visual-bar-bg">
+                        <div class="visual-bar-fill save-bar" id="vb-save-bar"></div>
+                    </div>
+                    <div class="visual-bar-label" style="margin-top:0.8rem">
+                        <span>누진세 포함 절감율</span>
+                        <span id="vb-total-pct" class="visual-pct orange">0%</span>
+                    </div>
+                    <div class="visual-bar-bg">
+                        <div class="visual-bar-fill total-bar" id="vb-total-bar"></div>
+                    </div>
+                    <p class="calc-note">※ 누진세 절감 효과 포함 시 절감율이 더 높아집니다. 실제 결과는 시설 조건에 따라 다를 수 있습니다.</p>
+                </div>
+                <!-- 결과 공유/복사 버튼 -->
+                <div class="calc-share-row" id="calc-share-row" style="display:none">
+                    <button class="btn-calc-share" id="btn-copy-result" data-i18n="calc_copy">
+                        <i class="fas fa-copy"></i> 결과 복사
+                    </button>
+                    <button class="btn-calc-share" id="btn-print-result" data-i18n="calc_print">
+                        <i class="fas fa-print"></i> 인쇄/PDF
+                    </button>
+                    <button class="btn-calc-share secondary" id="btn-reset-calc" data-i18n="calc_reset">
+                        <i class="fas fa-redo"></i> 초기화
+                    </button>
+                </div>
+                <!-- v5.3 회수 예측 미니 차트 -->
+                <div class="calc-roi-chart-wrap" id="calc-roi-chart-wrap" style="display:none">
+                    <div class="crct-title"><i class="fas fa-chart-area"></i> 투자 회수 예측 그래프</div>
+                    <div style="height:200px; position:relative;">
+                        <canvas id="chart-roi-predict"></canvas>
+                    </div>
+                    <p class="crct-note">투자비 100% 회수 시점이 파란 선과 주황 선이 교차하는 지점입니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== v5.2 성과 비교 인포그래픽 (Before/After) ===== -->
+<section id="compare" class="compare-section content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-balance-scale"></i></span>
+                <h2 class="section-title" data-i18n="section_compare">⚡ CESS 도입 전 vs 후 비교</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="compare-intro">실제 도입 업체 평균 데이터 기준 — 10% 절전율 확보 시 기대 효과</p>
+        <div class="compare-grid">
+            <!-- Before -->
+            <div class="compare-card compare-before reveal-item">
+                <div class="compare-badge before-badge"><i class="fas fa-times-circle"></i> BEFORE</div>
+                <div class="compare-items">
+                    <div class="compare-item">
+                        <div class="ci-icon ci-red"><i class="fas fa-bolt"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">월 전기요금</div>
+                            <div class="ci-value ci-before-val">₩10,000만원</div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-red"><i class="fas fa-cloud"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">연간 CO₂ 배출</div>
+                            <div class="ci-value ci-before-val">1,200 ton</div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-red"><i class="fas fa-cog"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">장비 수명 (평균)</div>
+                            <div class="ci-value ci-before-val">8년</div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-red"><i class="fas fa-fire"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">불필요 열 발생</div>
+                            <div class="ci-value ci-before-val">高 (최대 15%)</div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-red"><i class="fas fa-leaf"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">ESG 등급 영향</div>
+                            <div class="ci-value ci-before-val">개선 어려움</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Arrow -->
+            <div class="compare-arrow reveal-item">
+                <div class="arrow-circle">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>CESS 적용</span>
+                </div>
+            </div>
+            <!-- After -->
+            <div class="compare-card compare-after reveal-item">
+                <div class="compare-badge after-badge"><i class="fas fa-check-circle"></i> AFTER</div>
+                <div class="compare-items">
+                    <div class="compare-item">
+                        <div class="ci-icon ci-green"><i class="fas fa-bolt"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">월 전기요금</div>
+                            <div class="ci-value ci-after-val">₩8,700만원 <span class="ci-diff">▼ 13%</span></div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-green"><i class="fas fa-cloud"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">연간 CO₂ 배출</div>
+                            <div class="ci-value ci-after-val">1,080 ton <span class="ci-diff">▼ 10%</span></div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-green"><i class="fas fa-cog"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">장비 수명 (평균)</div>
+                            <div class="ci-value ci-after-val">11년 <span class="ci-diff">▲ 38%</span></div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-green"><i class="fas fa-fire"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">불필요 열 발생</div>
+                            <div class="ci-value ci-after-val">低 (최대 3%)</div>
+                        </div>
+                    </div>
+                    <div class="compare-item">
+                        <div class="ci-icon ci-green"><i class="fas fa-leaf"></i></div>
+                        <div class="ci-text">
+                            <div class="ci-label">ESG 등급 영향</div>
+                            <div class="ci-value ci-after-val">탄소 크레딧 확보 가능</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 연간 절감액 강조 배너 -->
+        <div class="compare-highlight-bar reveal-item">
+            <div class="chb-item">
+                <i class="fas fa-won-sign"></i>
+                <div>
+                    <div class="chb-num" data-target="15600" data-suffix="만원">0</div>
+                    <div class="chb-label">연간 절감 전기요금</div>
+                </div>
+            </div>
+            <div class="chb-divider"></div>
+            <div class="chb-item">
+                <i class="fas fa-seedling"></i>
+                <div>
+                    <div class="chb-num" data-target="1200" data-suffix="그루">0</div>
+                    <div class="chb-label">나무 심기 효과</div>
+                </div>
+            </div>
+            <div class="chb-divider"></div>
+            <div class="chb-item">
+                <i class="fas fa-calendar-check"></i>
+                <div>
+                    <div class="chb-num" data-target="33" data-suffix="개월">0</div>
+                    <div class="chb-label">투자 회수 기간</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== v5.2 설치 타임라인 섹션 ===== -->
+<section id="timeline" class="timeline-section content-section dark-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-road"></i></span>
+                <h2 class="section-title" data-i18n="section_timeline">⚡ CESS 도입 로드맵</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="timeline-intro">첫 문의부터 비용 회수까지 — CESS 도입의 전 과정을 한눈에 확인하세요</p>
+        <div class="timeline-wrap">
+            <div class="timeline-track"></div>
+            <div class="timeline-item tl-left reveal-item">
+                <div class="tl-dot"><span>1</span></div>
+                <div class="tl-card">
+                    <div class="tl-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="tl-content">
+                        <div class="tl-step">STEP 01</div>
+                        <h4 class="tl-title">무료 진단 신청</h4>
+                        <p class="tl-desc">온라인 문의 또는 전화 접수 → 전문 컨설턴트 배정 → 48시간 내 연락</p>
+                        <div class="tl-duration"><i class="fas fa-clock"></i> D+0 (당일)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item tl-right reveal-item">
+                <div class="tl-dot"><span>2</span></div>
+                <div class="tl-card">
+                    <div class="tl-icon"><i class="fas fa-search"></i></div>
+                    <div class="tl-content">
+                        <div class="tl-step">STEP 02</div>
+                        <h4 class="tl-title">현장 분석·측정</h4>
+                        <p class="tl-desc">전기 사용량 패턴 분석 → 부하 측정 → 절감 가능 용량 산정 → 무료 보고서 제공</p>
+                        <div class="tl-duration"><i class="fas fa-clock"></i> D+3 ~ D+5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item tl-left reveal-item">
+                <div class="tl-dot"><span>3</span></div>
+                <div class="tl-card">
+                    <div class="tl-icon"><i class="fas fa-file-contract"></i></div>
+                    <div class="tl-content">
+                        <div class="tl-step">STEP 03</div>
+                        <h4 class="tl-title">제안서 검토·계약</h4>
+                        <p class="tl-desc">맞춤 절감 제안서 제출 → 절감 보장 계약 체결 → 설치 일정 협의</p>
+                        <div class="tl-duration"><i class="fas fa-clock"></i> D+7 ~ D+14</div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item tl-right reveal-item">
+                <div class="tl-dot"><span>4</span></div>
+                <div class="tl-card">
+                    <div class="tl-icon"><i class="fas fa-tools"></i></div>
+                    <div class="tl-content">
+                        <div class="tl-step">STEP 04</div>
+                        <h4 class="tl-title">CESS 설치·시운전</h4>
+                        <p class="tl-desc">무정전 병렬 설치 → 전력 품질 최적화 → 안정화 테스트 → 결과 확인서 발급</p>
+                        <div class="tl-duration"><i class="fas fa-clock"></i> D+15 ~ D+20</div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item tl-left reveal-item">
+                <div class="tl-dot"><span>5</span></div>
+                <div class="tl-card">
+                    <div class="tl-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="tl-content">
+                        <div class="tl-step">STEP 05</div>
+                        <h4 class="tl-title">모니터링·성과 확인</h4>
+                        <p class="tl-desc">월별 절감 실적 리포트 → 분기 점검 → 절감율 미달 시 보장 처리</p>
+                        <div class="tl-duration"><i class="fas fa-clock"></i> 매월 정기</div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item tl-right reveal-item">
+                <div class="tl-dot tl-dot-final"><span><i class="fas fa-trophy"></i></span></div>
+                <div class="tl-card tl-card-final">
+                    <div class="tl-icon tl-icon-final"><i class="fas fa-coins"></i></div>
+                    <div class="tl-content">
+                        <div class="tl-step">GOAL</div>
+                        <h4 class="tl-title">투자 비용 전액 회수</h4>
+                        <p class="tl-desc">평균 33개월 내 초기 투자비 전액 회수 → 이후 순수익 발생 → ESG·탄소크레딧 혜택</p>
+                        <div class="tl-duration tl-duration-gold"><i class="fas fa-star"></i> 약 33개월 후</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== v5.2 FAQ 아코디언 (개편) ===== -->
+<section id="faq-new" class="faq-section content-section light-section">
+    <div class="section-header-bar">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-num"><i class="fas fa-question-circle"></i></span>
+                <h2 class="section-title" data-i18n="section_faq">⚡ 자주 묻는 질문 (FAQ)</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="faq-intro">CESS 도입 전 가장 많이 물어보시는 20가지 질문에 답변드립니다.</p>
+        <!-- FAQ 카테고리 탭 -->
+        <div class="faq-tabs" id="faq-tabs">
+            <button class="faq-tab active" data-cat="all">전체</button>
+            <button class="faq-tab" data-cat="principle">작동원리</button>
+            <button class="faq-tab" data-cat="install">설치·비용</button>
+            <button class="faq-tab" data-cat="effect">절감효과</button>
+            <button class="faq-tab" data-cat="safety">안전·AS</button>
+        </div>
+        <div class="faq-accordion" id="faq-accordion">
+            <!-- 작동원리 -->
+            <div class="faq-item reveal-item" data-cat="principle">
+                <button class="faq-q"><span class="faq-tag tag-principle">작동원리</span>CESS는 정확히 어떤 원리로 전기를 절약하나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>CESS는 전력계통의 무효전력(역률 불량)을 개선하여 실제 사용 전력의 효율을 높이는 방식입니다. 전력선에 발생하는 노이즈와 고조파를 제거하고, 역률을 95% 이상으로 개선함으로써 동일한 작업량에 필요한 전력 소비를 줄입니다. 이는 변압기·모터 등 전기 설비의 부하를 줄여 열 발생을 감소시키고, 설비 수명도 연장합니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="principle">
+                <button class="faq-q"><span class="faq-tag tag-principle">작동원리</span>전압이 낮아지거나 기기 성능에 영향을 주지 않나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>전혀 그렇지 않습니다. CESS는 전압을 인위적으로 낮추는 방식이 아닌, 전력 품질을 개선하는 방식입니다. 오히려 노이즈 제거와 역률 개선을 통해 전압 안정성이 향상되며, 모터·조명·기기의 성능은 동일하거나 더 좋아지는 경우도 있습니다. KTL(한국시험연구원) 인증을 통해 이를 검증 완료했습니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="principle">
+                <button class="faq-q"><span class="faq-tag tag-principle">작동원리</span>누진세 절감 효과는 어떻게 발생하나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>아파트 공용설비, 소규모 공장 등 누진세 구간 적용 대상의 경우, 10% 절전만으로도 누진 구간이 한 단계 낮아질 수 있습니다. 예를 들어 월 500kWh에서 450kWh로 줄면 3단계→2단계 이동이 가능하여, 단순 10% 절전에서 실제 13% 이상의 요금 절감이 실현됩니다.</p></div>
+            </div>
+            <!-- 설치·비용 -->
+            <div class="faq-item reveal-item" data-cat="install">
+                <button class="faq-q"><span class="faq-tag tag-install">설치·비용</span>설치 시 단전이 필요한가요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>CESS는 병렬 방식으로 설치되기 때문에 단전 없이 설치가 가능합니다. 공장·빌딩·아파트 운영 중에도 설치가 가능하여 생산 라인이나 업무에 전혀 지장을 주지 않습니다. 통상 현장 설치 작업은 2~4시간 내에 완료됩니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="install">
+                <button class="faq-q"><span class="faq-tag tag-install">설치·비용</span>초기 설치 비용은 어떻게 되나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>설치 비용은 시설 규모와 사용 전력 용량에 따라 달라집니다. 그러나 CESS는 절감 보장 계약 방식을 통해 절감 효과 미달 시 환불·보상을 보장하므로 투자 리스크가 매우 낮습니다. 평균적으로 33개월 내 초기 투자비 전액 회수가 가능하며, 이후에는 순수익이 발생합니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="install">
+                <button class="faq-q"><span class="faq-tag tag-install">설치·비용</span>어떤 규모의 시설에 적합한가요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>월 전기요금 기준 300만원 이상 시설부터 경제성이 확보됩니다. 중·대형 공장, 아파트단지, 빌딩·오피스텔, 마트·호텔, 공공기관, 데이터센터 등 전력 소비가 많은 모든 시설에 적합합니다. 단독주택이나 소규모 사무실은 경제성이 낮아 권장하지 않습니다.</p></div>
+            </div>
+            <!-- 절감효과 -->
+            <div class="faq-item reveal-item" data-cat="effect">
+                <button class="faq-q"><span class="faq-tag tag-effect">절감효과</span>절감율이 정확히 보장되나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>코스모토는 국내 최초로 절감율 보장 계약(개런티 방식)을 도입했습니다. 계약서에 명시된 절감율에 미달할 경우 차액을 보상해드립니다. 평균적으로 10%의 절전율을 목표로 하며, 시설 조건에 따라 8~15% 범위에서 결과가 나타납니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="effect">
+                <button class="faq-q"><span class="faq-tag tag-effect">절감효과</span>절감 효과는 언제부터 나타나나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>설치 즉시부터 전력 품질 개선 효과가 나타나며, 첫 달 전기 고지서부터 절감 효과를 확인하실 수 있습니다. 완전한 안정화까지는 1~2개월 정도 소요되며, 이후 일정한 절감율이 유지됩니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="effect">
+                <button class="faq-q"><span class="faq-tag tag-effect">절감효과</span>계절에 따라 절감 효과가 달라지나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>냉난방 부하가 높은 여름·겨울에는 전력 소비량이 증가하므로 절감 금액도 함께 커집니다. 냉난방기·압축기·모터 등 전력 소비 설비가 많을수록 CESS의 효율 개선 효과도 커지기 때문입니다. 절감율(%) 자체는 계절에 관계없이 일정하게 유지됩니다.</p></div>
+            </div>
+            <!-- 안전·AS -->
+            <div class="faq-item reveal-item" data-cat="safety">
+                <button class="faq-q"><span class="faq-tag tag-safety">안전·AS</span>전기 안전 문제는 없나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>CESS는 KTL(한국시험연구원), CE 유럽인증, ISO 9001 품질경영시스템을 모두 획득한 안전 검증 제품입니다. 전기사업법 및 전기설비기술기준에 맞게 설계되었으며, 과전압·과전류 보호 기능이 내장되어 있습니다. 국내 5,000여 업체 설치 운용 중 안전 사고 사례 없음.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="safety">
+                <button class="faq-q"><span class="faq-tag tag-safety">안전·AS</span>A/S 및 사후관리는 어떻게 되나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>설치 후 무상 A/S 기간은 2년이며, 이후에는 연간 유지보수 계약으로 전문 엔지니어의 정기 점검을 받으실 수 있습니다. 긴급 장애 시 24시간 콜센터 운영, 영업일 기준 48시간 내 현장 출동을 보장합니다.</p></div>
+            </div>
+            <div class="faq-item reveal-item" data-cat="safety">
+                <button class="faq-q"><span class="faq-tag tag-safety">안전·AS</span>제품 수명은 얼마나 되나요?<i class="fas fa-plus faq-icon"></i></button>
+                <div class="faq-a"><p>CESS 본체의 설계 수명은 20년 이상입니다. 이동부품 없는 정적 설비 구조로 마모나 고장 위험이 극히 낮으며, 20년 기준 총 절감 효과를 계산하면 투자 대비 수익률이 매우 높습니다. 정기 점검을 통해 최적 성능을 유지하세요.</p></div>
+            </div>
+        </div>
+        <div class="faq-cta reveal-item">
+            <p>더 궁금한 점이 있으신가요?</p>
+            <button class="btn-faq-inquiry" id="faq-inquiry-btn">
+                <i class="fas fa-clipboard-check"></i> 전문가에게 직접 문의하기
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 진단 신청 팝업 폼 ===== -->
+<div id="inquiry-modal" class="inquiry-modal" role="dialog" aria-modal="true" aria-labelledby="inquiry-heading">
+    <div class="inquiry-overlay" id="inquiry-overlay"></div>
+    <div class="inquiry-content">
+        <button class="inquiry-close" id="inquiry-close" aria-label="닫기">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="inquiry-header">
+            <div class="inquiry-icon"><i class="fas fa-bolt"></i></div>
+            <h3 id="inquiry-heading" data-i18n="modal_title">⚡ 무료 에너지 절감 진단 신청</h3>
+            <p>귀사의 전기요금 절감 가능 여부를 무료로 진단해드립니다.<br>전문 컨설턴트가 48시간 이내 연락드립니다.</p>
+        </div>
+        <form class="inquiry-form" id="inquiry-form" novalidate>
+            <div class="iq-field-row">
+                <div class="iq-field">
+                    <label for="iq-name" data-i18n="modal_name">담당자 성함</label>
+                    <div class="iq-input-wrap">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="iq-name" name="name" data-i18n-placeholder="modal_name" placeholder="홍길동" required maxlength="30">
+                    </div>
+                    <span class="iq-error" id="iq-name-err"></span>
+                </div>
+                <div class="iq-field">
+                    <label for="iq-company" data-i18n="modal_company">회사명 <span class="iq-req">*</span></label>
+                    <div class="iq-input-wrap">
+                        <i class="fas fa-building"></i>
+                        <input type="text" id="iq-company" name="company" placeholder="(주)코스모토" required maxlength="50">
+                    </div>
+                    <span class="iq-error" id="iq-company-err"></span>
+                </div>
+            </div>
+            <div class="iq-field-row">
+                <div class="iq-field">
+                    <label for="iq-phone" data-i18n="modal_phone">연락처 <span class="iq-req">*</span></label>
+                    <div class="iq-input-wrap">
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="tel" id="iq-phone" name="phone" placeholder="010-0000-0000" required maxlength="20">
+                    </div>
+                    <span class="iq-error" id="iq-phone-err"></span>
+                </div>
+                <div class="iq-field">
+                    <label for="iq-email" data-i18n="modal_email">이메일</label>
+                    <div class="iq-input-wrap">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="iq-email" name="email" placeholder="example@company.com" maxlength="60">
+                    </div>
+                    <span class="iq-error" id="iq-email-err"></span>
+                </div>
+            </div>
+            <div class="iq-field">
+                <label for="iq-bill" data-i18n="modal_bill">월 평균 전기요금 (원)</label>
+                <div class="iq-input-wrap">
+                    <i class="fas fa-bolt"></i>
+                    <input type="number" id="iq-bill" name="bill" placeholder="예: 10000000" min="0" maxlength="12">
+                </div>
+            </div>
+            <div class="iq-field">
+                <label for="iq-message" data-i18n="modal_msg">문의 내용</label>
+                <div class="iq-textarea-wrap">
+                    <textarea id="iq-message" name="message" rows="3" data-i18n-placeholder="modal_msg_ph" placeholder="설치 규모, 시설 종류, 기타 문의 사항을 자유롭게 작성해주세요." maxlength="300"></textarea>
+                    <span class="iq-char-count" id="iq-char-count">0 / 300</span>
+                </div>
+            </div>
+            <label class="iq-privacy-label">
+                <input type="checkbox" id="iq-privacy" required>
+                <span>개인정보 수집·이용에 동의합니다. <small>(진단 상담 목적, 3개월 보관)</small></span>
+            </label>
+            <span class="iq-error" id="iq-privacy-err"></span>
+            <button type="submit" class="btn-inquiry-submit" id="btn-inquiry-submit" data-i18n="modal_submit">
+                <i class="fas fa-paper-plane"></i> 무료 진단 신청하기
+            </button>
+        </form>
+        <div class="inquiry-success" id="inquiry-success" style="display:none">
+            <div class="iq-success-icon"><i class="fas fa-check-circle"></i></div>
+            <h4>신청이 완료되었습니다!</h4>
+            <p>담당 컨설턴트가 <strong>48시간 이내</strong>에 연락드리겠습니다.<br>감사합니다. ⚡</p>
+            <button class="btn-iq-close-success" id="btn-iq-close-success">확인</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== LIGHTBOX ===== -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="이미지 확대보기">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-inner">
+        <button class="lightbox-close" id="lightbox-close" aria-label="닫기">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="이전 이미지">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" id="lightbox-next" aria-label="다음 이미지">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-img-wrap">
+            <img id="lightbox-img" src="" alt="" class="lightbox-img">
+            <div class="lightbox-spinner"><i class="fas fa-circle-notch fa-spin"></i></div>
+        </div>
+        <div class="lightbox-caption">
+            <span id="lightbox-caption-text"></span>
+            <span id="lightbox-counter" class="lightbox-counter"></span>
+        </div>
+        <button class="lightbox-dl-btn" id="lightbox-dl-btn">
+            <i class="fas fa-download"></i> 다운로드
+        </button>
+    </div>
+</div>
+
+<!-- ===== THANK YOU / FOOTER ===== -->
+<footer id="footer" class="footer-section">
+    <div class="footer-bg">
+        <img src="https://www.genspark.ai/api/files/s/WON7YSTw" alt="Thank You" class="footer-bg-img">
+        <div class="footer-overlay"></div>
+    </div>
+    <div class="footer-content">
+        <h2 class="footer-title" data-i18n="footer_title">Thank You</h2>
+        <p class="footer-subtitle" data-i18n="footer_sub">Best quality to our customer</p>
+        <p class="footer-korean" data-i18n="footer_slogan">전압 강하 없이 안전하게 전기요금을 절약할 수 없을까?</p>
+        <p class="footer-brand" data-i18n="footer_brand">CESS가 해냅니다</p>
+        <div class="footer-logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text-footer"><em>C</em>OSMOTOR</span>
+        </div>
+        <p class="footer-url">www.cosmotor.net</p>
+
+        <!-- ✅ 실제 연락처 정보 카드 -->
+        <div class="footer-contact-card">
+            <div class="footer-contact-item">
+                <i class="fas fa-building"></i>
+                <div>
+                    <div class="fcc-title" data-i18n="footer_company">주식회사 코스모토</div>
+                    <div class="fcc-value" data-i18n="footer_dept">사업부 이사 : 임몽규</div>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <div class="fcc-title" data-i18n="footer_addr_label">주소</div>
+                    <div class="fcc-value" data-i18n="footer_addr">서울시 용산구 원효로 146, 금강프라임빌딩 4층</div>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <div class="fcc-title">TEL</div>
+                    <div class="fcc-value">
+                        <a href="tel:01082651123" data-i18n="footer_tel">010-8265-1123</a>
+                        <br><small data-i18n="footer_tel_hours">평일 09:00 – 18:00</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <div class="fcc-title">EMAIL</div>
+                    <div class="fcc-value">
+                        <a href="mailto:soostory11@gmail.com" data-i18n="footer_email">soostory11@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-globe"></i>
+                <div>
+                    <div class="fcc-title">WEB</div>
+                    <div class="fcc-value">
+                        <a href="https://www.cosmotor.net" target="_blank" rel="noopener" data-i18n="footer_web">www.cosmotor.net</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <i class="fas fa-network-wired"></i>
+                <div>
+                    <div class="fcc-title" data-i18n="nav_distributor">유통망 관리</div>
+                    <div class="fcc-value">
+                        <a href="distributors.html" class="btn-distributor-link">
+                            <i class="fas fa-network-wired"></i>
+                            <span data-i18n="dist_page_title">유통사·대리점 DB</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 소셜 링크 -->
+        <div class="footer-social">
+            <a href="https://www.cosmotor.net" target="_blank" rel="noopener" class="social-btn" aria-label="홈페이지">
+                <i class="fas fa-globe"></i>
+            </a>
+            <a href="mailto:soostory11@gmail.com" class="social-btn" aria-label="이메일">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:01082651123" class="social-btn" aria-label="전화">
+                <i class="fas fa-phone-alt"></i>
+            </a>
+            <a href="distributors.html" class="social-btn" aria-label="유통망 관리" title="유통망 관리 시스템">
+                <i class="fas fa-network-wired"></i>
+            </a>
+        </div>
+        <p class="footer-copy" data-i18n="footer_copy">© 2025 COSMOTOR Co., Ltd. All rights reserved. | CESS® 등록 상표</p>
+        <div class="footer-download-area">
+            <button class="btn-download-all" id="footer-download-all" data-i18n="footer_dl_btn">
+                <i class="fas fa-download"></i> 전체 자료 다운로드
+            </button>
+        </div>
+    </div>
+</footer>
+
+<!-- Download Modal -->
+<div id="download-modal" class="download-modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="modal-heading"><i class="fas fa-download"></i> 자료 다운로드</h3>
+            <button class="modal-close" id="modal-close" aria-label="닫기">×</button>
+        </div>
+        <div class="modal-body">
+            <p>CESS 에너지 절감 솔루션 제안서의 이미지를 선택하여 다운로드하세요.</p>
+            <div class="download-list" id="download-list"></div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn-modal-dl-all" id="modal-dl-all">
+                <i class="fas fa-download"></i> 전체 다운로드
+            </button>
+            <button class="btn-modal-close-btn" id="modal-close-btn">닫기</button>
+        </div>
+    </div>
+</div>
+
+<!-- Back to top -->
+<button id="back-to-top" class="back-to-top" title="맨 위로" aria-label="맨 위로">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ===== v5.0 모바일 플로팅 CTA ===== -->
+<div class="mobile-float-cta" id="mobile-float-cta">
+    <button class="mf-calc" onclick="document.getElementById('calculator').scrollIntoView({behavior:'smooth'})">
+        <i class="fas fa-calculator"></i>
+        <span>절감 계산</span>
+    </button>
+    <button class="mf-inquiry" id="mf-inquiry-btn">
+        <i class="fas fa-clipboard-check"></i>
+        <span>무료 진단</span>
+    </button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
